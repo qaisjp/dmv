@@ -434,6 +434,20 @@
   }
 
   // ---------- Test ----------
+  // Quick eased scroll (~300ms) that puts el just below the sticky header.
+  function scrollToEl(el) {
+    const header = document.querySelector('header').offsetHeight;
+    const target = Math.max(0, el.getBoundingClientRect().top + window.scrollY - header - 12);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return window.scrollTo(0, target);
+    const start = window.scrollY, dist = target - start, t0 = performance.now(), DUR = 300;
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / DUR);
+      window.scrollTo(0, start + dist * (1 - (1 - t) ** 3)); // ease-out cubic
+      if (t < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
   function testSetup() {
     const qs = selectedQuestions();
     chrome(true, '');
@@ -492,8 +506,11 @@
       el.querySelectorAll('.opt').forEach((b) => (b.onclick = () => {
         el.querySelectorAll('.opt').forEach((o) => o.style.borderColor = '');
         b.style.borderColor = 'var(--brand)';
+        const first = picks[n] === null;
         picks[n] = +b.dataset.oi;
         updateLeft();
+        // Move on after a question's first answer (not when changing an answer).
+        if (first) scrollToEl(view.querySelector(`.tq[data-n="${n + 1}"]`) || view.querySelector('#submit'));
       }));
     });
     view.querySelector('#submit').onclick = () => {
