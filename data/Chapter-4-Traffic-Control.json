@@ -1,0 +1,583 @@
+{
+ "title": "Chapter 4 - Traffic Control",
+ "questions": [
+  {
+   "name": "sgE-7355136-1-108",
+   "page": "1",
+   "qid": "108",
+   "type": "radio",
+   "question": "When the road is marked with a solid yellow line and a broken yellow line on your side you may pass:",
+   "images": [],
+   "options": [
+    {
+     "value": "10227",
+     "text": "Only in an emergency",
+     "images": []
+    },
+    {
+     "value": "10228",
+     "text": "If you are on an expressway",
+     "images": []
+    },
+    {
+     "value": "10229",
+     "text": "If traffic is clear",
+     "images": []
+    },
+    {
+     "value": "10230",
+     "text": "Only at an intersection",
+     "images": []
+    }
+   ],
+   "answer": "10229",
+   "answer_text": "If traffic is clear"
+  },
+  {
+   "name": "sgE-7355136-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "Which of the following must you obey over the other three?",
+   "images": [],
+   "options": [
+    {
+     "value": "10267",
+     "text": "A steady red light",
+     "images": []
+    },
+    {
+     "value": "10268",
+     "text": "A police officer",
+     "images": []
+    },
+    {
+     "value": "10269",
+     "text": "A stop sign",
+     "images": []
+    },
+    {
+     "value": "10270",
+     "text": "A flashing red light",
+     "images": []
+    }
+   ],
+   "answer": "10268",
+   "answer_text": "A police officer"
+  },
+  {
+   "name": "sgE-7355136-1-114",
+   "page": "1",
+   "qid": "114",
+   "type": "radio",
+   "question": "A traffic light which has a green arrow and a red light means that:",
+   "images": [],
+   "options": [
+    {
+     "value": "10251",
+     "text": "You may only drive straight ahead",
+     "images": []
+    },
+    {
+     "value": "10252",
+     "text": "You may drive only in the direction of the green arrow",
+     "images": []
+    },
+    {
+     "value": "10253",
+     "text": "You must wait for a green light",
+     "images": []
+    },
+    {
+     "value": "10254",
+     "text": "Vehicles moving in any direction must stop",
+     "images": []
+    }
+   ],
+   "answer": "10252",
+   "answer_text": "You may drive only in the direction of the green arrow"
+  },
+  {
+   "name": "sgE-7355136-1-124",
+   "page": "1",
+   "qid": "124",
+   "type": "radio",
+   "question": "A red and white triangular sign at an intersection means:",
+   "images": [],
+   "options": [
+    {
+     "value": "10292",
+     "text": "Look both ways as you cross the intersection",
+     "images": []
+    },
+    {
+     "value": "10294",
+     "text": "Slow down and be prepared to stop if necessary",
+     "images": []
+    },
+    {
+     "value": "10291",
+     "text": "Slow down if an emergency vehicle is approaching",
+     "images": []
+    },
+    {
+     "value": "10293",
+     "text": "Always come to a full stop at the intersection",
+     "images": []
+    }
+   ],
+   "answer": "10294",
+   "answer_text": "Slow down and be prepared to stop if necessary"
+  },
+  {
+   "name": "sgE-7355136-1-122",
+   "page": "1",
+   "qid": "122",
+   "type": "radio",
+   "question": "A diamond-shaped sign is a:",
+   "images": [],
+   "options": [
+    {
+     "value": "10283",
+     "text": "Road hazard sign",
+     "images": []
+    },
+    {
+     "value": "10284",
+     "text": "Interstate route site",
+     "images": []
+    },
+    {
+     "value": "10285",
+     "text": "School crossing sign",
+     "images": []
+    },
+    {
+     "value": "10286",
+     "text": "Speed limit sign",
+     "images": []
+    }
+   ],
+   "answer": "10283",
+   "answer_text": "Road hazard sign"
+  },
+  {
+   "name": "sgE-7355136-1-111",
+   "page": "1",
+   "qid": "111",
+   "type": "radio",
+   "question": "You come to an intersection which has a flashing red light. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10239",
+     "text": "Come to a full stop, then go when safe to do so",
+     "images": []
+    },
+    {
+     "value": "10240",
+     "text": "Stop only if cars are approaching the intersection",
+     "images": []
+    },
+    {
+     "value": "10241",
+     "text": "Stop only if cars are already in the intersection",
+     "images": []
+    },
+    {
+     "value": "10242",
+     "text": "Slow down and be prepared to stop if necessary",
+     "images": []
+    }
+   ],
+   "answer": "10239",
+   "answer_text": "Come to a full stop, then go when safe to do so"
+  },
+  {
+   "name": "sgE-7355136-1-110",
+   "page": "1",
+   "qid": "110",
+   "type": "radio",
+   "question": "Which of the following is used on some highways to direct drivers into the proper lanes for turning?",
+   "images": [],
+   "options": [
+    {
+     "value": "10235",
+     "text": "Flashing red lights",
+     "images": []
+    },
+    {
+     "value": "10236",
+     "text": "Flashing yellow lights",
+     "images": []
+    },
+    {
+     "value": "10237",
+     "text": "White lines on the side of the road",
+     "images": []
+    },
+    {
+     "value": "10238",
+     "text": "White arrows in the middle of the lanes",
+     "images": []
+    }
+   ],
+   "answer": "10238",
+   "answer_text": "White arrows in the middle of the lanes"
+  },
+  {
+   "name": "sgE-7355136-1-116",
+   "page": "1",
+   "qid": "116",
+   "type": "radio",
+   "question": "You may cross a double solid yellow line:",
+   "images": [],
+   "options": [
+    {
+     "value": "10259",
+     "text": "To pass a slow moving truck",
+     "images": []
+    },
+    {
+     "value": "10260",
+     "text": "To turn into a driveway",
+     "images": []
+    },
+    {
+     "value": "10261",
+     "text": "To pass a car if traffic permits",
+     "images": []
+    },
+    {
+     "value": "10262",
+     "text": "Under no conditions",
+     "images": []
+    }
+   ],
+   "answer": "10260",
+   "answer_text": "To turn into a driveway"
+  },
+  {
+   "name": "sgE-7355136-1-117",
+   "page": "1",
+   "qid": "117",
+   "type": "radio",
+   "question": "As you near an intersection, the traffic light changes from green to yellow. Your best action would be to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10263",
+     "text": "Speed up to beat the red light",
+     "images": []
+    },
+    {
+     "value": "10264",
+     "text": "Apply the brakes sharply to stop",
+     "images": []
+    },
+    {
+     "value": "10265",
+     "text": "Be prepared to stop in the center of the intersection",
+     "images": []
+    },
+    {
+     "value": "10266",
+     "text": "Be prepared to stop before the intersection",
+     "images": []
+    }
+   ],
+   "answer": "10266",
+   "answer_text": "Be prepared to stop before the intersection"
+  },
+  {
+   "name": "sgE-7355136-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "What does this road sign (stop sign) mean?",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/stopsign.png"
+   ],
+   "options": [
+    {
+     "value": "10271",
+     "text": "Slow down and prepare to stop only if cars are approaching you",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "Come to a full stop, then go when it is safe to do so",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "Proceed carefully through the intersection, not always stopping",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "Stop only for traffic on an intersecting road",
+     "images": []
+    }
+   ],
+   "answer": "10272",
+   "answer_text": "Come to a full stop, then go when it is safe to do so"
+  },
+  {
+   "name": "sgE-7355136-1-109",
+   "page": "1",
+   "qid": "109",
+   "type": "radio",
+   "question": "You may not cross a single broken white (or yellow) line:",
+   "images": [],
+   "options": [
+    {
+     "value": "10231",
+     "text": "When to do so would interfere with traffic",
+     "images": []
+    },
+    {
+     "value": "10232",
+     "text": "When turning left into a driveway",
+     "images": []
+    },
+    {
+     "value": "10233",
+     "text": "When the car in front is disabled",
+     "images": []
+    },
+    {
+     "value": "10234",
+     "text": "When passing to the right on a one-way street",
+     "images": []
+    }
+   ],
+   "answer": "10231",
+   "answer_text": "When to do so would interfere with traffic"
+  },
+  {
+   "name": "sgE-7355136-1-107",
+   "page": "1",
+   "qid": "107",
+   "type": "radio",
+   "question": "A solid white line on the right edge of the highway slants in toward your left. This shows that:",
+   "images": [],
+   "options": [
+    {
+     "value": "10223",
+     "text": "There is an intersection just ahead",
+     "images": []
+    },
+    {
+     "value": "10224",
+     "text": "You are approaching a construction area",
+     "images": []
+    },
+    {
+     "value": "10225",
+     "text": "You will be required to turn left just ahead",
+     "images": []
+    },
+    {
+     "value": "10226",
+     "text": "The road will get narrower",
+     "images": []
+    }
+   ],
+   "answer": "10226",
+   "answer_text": "The road will get narrower"
+  },
+  {
+   "name": "sgE-7355136-1-121",
+   "page": "1",
+   "qid": "121",
+   "type": "radio",
+   "question": "What are the colors of the warning signs that indicate hazards ahead, such as curves in the road or narrow bridges?",
+   "images": [],
+   "options": [
+    {
+     "value": "10279",
+     "text": "Black letters or symbols on a white background",
+     "images": []
+    },
+    {
+     "value": "10280",
+     "text": "Black letters or symbols on a yellow background",
+     "images": []
+    },
+    {
+     "value": "10281",
+     "text": "White letters or symbols on a blue background",
+     "images": []
+    },
+    {
+     "value": "10282",
+     "text": "White letters or symbols on a green background",
+     "images": []
+    }
+   ],
+   "answer": "10280",
+   "answer_text": "Black letters or symbols on a yellow background"
+  },
+  {
+   "name": "sgE-7355136-1-112",
+   "page": "1",
+   "qid": "112",
+   "type": "radio",
+   "question": "An intersection has a stop sign and a crosswalk, but no stop line. You must stop:",
+   "images": [],
+   "options": [
+    {
+     "value": "10243",
+     "text": "Before the crosswalk",
+     "images": []
+    },
+    {
+     "value": "10244",
+     "text": "50 feet before the intersection",
+     "images": []
+    },
+    {
+     "value": "10245",
+     "text": "Where you think the stop line would be",
+     "images": []
+    },
+    {
+     "value": "10246",
+     "text": "With your front wheels in the crosswalk",
+     "images": []
+    }
+   ],
+   "answer": "10243",
+   "answer_text": "Before the crosswalk"
+  },
+  {
+   "name": "sgE-7355136-1-115",
+   "page": "1",
+   "qid": "115",
+   "type": "radio",
+   "question": "You may cross a single solid white line in the highway:",
+   "images": [],
+   "options": [
+    {
+     "value": "10255",
+     "text": "Whenever you want to",
+     "images": []
+    },
+    {
+     "value": "10256",
+     "text": "If traffic conditions require",
+     "images": []
+    },
+    {
+     "value": "10257",
+     "text": "Only to turn into a driveway",
+     "images": []
+    },
+    {
+     "value": "10258",
+     "text": "Only to make a u-turn",
+     "images": []
+    }
+   ],
+   "answer": "10256",
+   "answer_text": "If traffic conditions require"
+  },
+  {
+   "name": "sgE-7355136-1-113",
+   "page": "1",
+   "qid": "113",
+   "type": "radio",
+   "question": "What does a flashing yellow light mean?",
+   "images": [],
+   "options": [
+    {
+     "value": "10247",
+     "text": "Merging traffic",
+     "images": []
+    },
+    {
+     "value": "10248",
+     "text": "Proceed with caution",
+     "images": []
+    },
+    {
+     "value": "10249",
+     "text": "Pedestrian crossing",
+     "images": []
+    },
+    {
+     "value": "10250",
+     "text": "Come to a full stop",
+     "images": []
+    }
+   ],
+   "answer": "10248",
+   "answer_text": "Proceed with caution"
+  },
+  {
+   "name": "sgE-7355136-1-120",
+   "page": "1",
+   "qid": "120",
+   "type": "radio",
+   "question": "What are the colors of a sign which tells you the distance to the next exit of a highway?",
+   "images": [],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Yellow with black letters",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Black with white letters",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Red with white letters",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Green with white letters",
+     "images": []
+    }
+   ],
+   "answer": "10278",
+   "answer_text": "Green with white letters"
+  },
+  {
+   "name": "sgE-7355136-1-123",
+   "page": "1",
+   "qid": "123",
+   "type": "radio",
+   "question": "A rectangular-shaped sign is a:",
+   "images": [],
+   "options": [
+    {
+     "value": "10288",
+     "text": "Railroad crossing sign",
+     "images": []
+    },
+    {
+     "value": "10289",
+     "text": "Stop sign",
+     "images": []
+    },
+    {
+     "value": "10287",
+     "text": "School crossing sign",
+     "images": []
+    },
+    {
+     "value": "10290",
+     "text": "Speed limit sign",
+     "images": []
+    }
+   ],
+   "answer": "10290",
+   "answer_text": "Speed limit sign"
+  }
+ ]
+}

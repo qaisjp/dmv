@@ -1,0 +1,521 @@
+{
+ "title": "Chapter 5 - Intersections and Turns",
+ "questions": [
+  {
+   "name": "sgE-7355138-1-120",
+   "page": "1",
+   "qid": "120",
+   "type": "radio",
+   "question": "You are waiting in the intersection to complete a left turn. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Signal and keep your wheels turned to the left",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Signal and keep your wheels straight",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Flash your headlights so the driver will let you through",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Drive around the rear of a car if it blocks you",
+     "images": []
+    }
+   ],
+   "answer": "10276",
+   "answer_text": "Signal and keep your wheels straight"
+  },
+  {
+   "name": "sgE-7355138-1-115",
+   "page": "1",
+   "qid": "115",
+   "type": "radio",
+   "question": "You want to turn left at an intersection. The light is green but oncoming traffic is heavy. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10255",
+     "text": "Use the next intersection",
+     "images": []
+    },
+    {
+     "value": "10256",
+     "text": "Wait at the crosswalk for traffic to clear",
+     "images": []
+    },
+    {
+     "value": "10257",
+     "text": "Wait in the center of the intersection for traffic to clear",
+     "images": []
+    },
+    {
+     "value": "10258",
+     "text": "Take the right-of-way since you have the light",
+     "images": []
+    }
+   ],
+   "answer": "10257",
+   "answer_text": "Wait in the center of the intersection for traffic to clear"
+  },
+  {
+   "name": "sgE-7355138-1-109",
+   "page": "1",
+   "qid": "109",
+   "type": "radio",
+   "question": "You are making a left turn away from a two-way street into a one-way street. When you have completed the turn your car should be:",
+   "images": [],
+   "options": [
+    {
+     "value": "10231",
+     "text": "In the right lane of the street",
+     "images": []
+    },
+    {
+     "value": "10232",
+     "text": "In the center of the street",
+     "images": []
+    },
+    {
+     "value": "10233",
+     "text": "In the left lane of the street",
+     "images": []
+    },
+    {
+     "value": "10234",
+     "text": "In the lane with the least traffic",
+     "images": []
+    }
+   ],
+   "answer": "10233",
+   "answer_text": "In the left lane of the street"
+  },
+  {
+   "name": "sgE-7355138-1-114",
+   "page": "1",
+   "qid": "114",
+   "type": "radio",
+   "question": "When two vehicles enter an intersection from different highways at the same time, which vehicle must yield the right-of-way?",
+   "images": [],
+   "options": [
+    {
+     "value": "10251",
+     "text": "Either one",
+     "images": []
+    },
+    {
+     "value": "10252",
+     "text": "Vehicle on the left",
+     "images": []
+    },
+    {
+     "value": "10253",
+     "text": "Vehicle on the right",
+     "images": []
+    },
+    {
+     "value": "10254",
+     "text": "Neither one",
+     "images": []
+    }
+   ],
+   "answer": "10252",
+   "answer_text": "Vehicle on the left"
+  },
+  {
+   "name": "sgE-7355138-1-112",
+   "page": "1",
+   "qid": "112",
+   "type": "radio",
+   "question": "You come to an intersection which is blocked by other traffic. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10243",
+     "text": "Go slowly until the traffic ahead moves",
+     "images": []
+    },
+    {
+     "value": "10244",
+     "text": "Get as close as possible to the other car",
+     "images": []
+    },
+    {
+     "value": "10245",
+     "text": "Stay out of the intersection until you can pass through",
+     "images": []
+    },
+    {
+     "value": "10246",
+     "text": "Sound your horn to make the cars move up",
+     "images": []
+    }
+   ],
+   "answer": "10245",
+   "answer_text": "Stay out of the intersection until you can pass through"
+  },
+  {
+   "name": "sgE-7355138-1-117",
+   "page": "1",
+   "qid": "117",
+   "type": "radio",
+   "question": "You have the right of way when you are:",
+   "images": [],
+   "options": [
+    {
+     "value": "10263",
+     "text": "Entering a traffic circle",
+     "images": []
+    },
+    {
+     "value": "10264",
+     "text": "Backing out of a driveway",
+     "images": []
+    },
+    {
+     "value": "10265",
+     "text": "Leaving a parking space",
+     "images": []
+    },
+    {
+     "value": "10266",
+     "text": "Already in a traffic circle",
+     "images": []
+    }
+   ],
+   "answer": "10266",
+   "answer_text": "Already in a traffic circle"
+  },
+  {
+   "name": "sgE-7355138-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "The driver's left hand and arm are extended upward. This hand signal (left hand up) means that the driver plans to:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/lefthandup.png"
+   ],
+   "options": [
+    {
+     "value": "10267",
+     "text": "Turn left",
+     "images": []
+    },
+    {
+     "value": "10268",
+     "text": "Turn right",
+     "images": []
+    },
+    {
+     "value": "10269",
+     "text": "Come to a stop",
+     "images": []
+    },
+    {
+     "value": "10270",
+     "text": "Go straight ahead",
+     "images": []
+    }
+   ],
+   "answer": "10268",
+   "answer_text": "Turn right"
+  },
+  {
+   "name": "sgE-7355138-1-108",
+   "page": "1",
+   "qid": "108",
+   "type": "radio",
+   "question": "What should you do when you are going to enter a roadway from a private road?",
+   "images": [],
+   "options": [
+    {
+     "value": "10227",
+     "text": "Blow your horn to warn cars you are entering the roadway",
+     "images": []
+    },
+    {
+     "value": "10228",
+     "text": "Stop with part of the car on the roadway to warn other drivers",
+     "images": []
+    },
+    {
+     "value": "10229",
+     "text": "Drive out fast to merge smoothly with the traffic",
+     "images": []
+    },
+    {
+     "value": "10230",
+     "text": "Yield the right-of-way to pedestrians and roadway traffic",
+     "images": []
+    }
+   ],
+   "answer": "10230",
+   "answer_text": "Yield the right-of-way to pedestrians and roadway traffic"
+  },
+  {
+   "name": "sgE-7355138-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "The driver's left arm and hand are extended downward. This hand signal (left hand down) means that the driver plans to:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/lefthanddown.png"
+   ],
+   "options": [
+    {
+     "value": "10271",
+     "text": "Turn left",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "Turn right",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "Stop",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "Start up",
+     "images": []
+    }
+   ],
+   "answer": "10273",
+   "answer_text": "Stop"
+  },
+  {
+   "name": "sgE-7355138-1-113",
+   "page": "1",
+   "qid": "113",
+   "type": "radio",
+   "question": "You must yield the right-of-way to an approaching vehicle when you are:",
+   "images": [],
+   "options": [
+    {
+     "value": "10247",
+     "text": "Already in a traffic circle",
+     "images": []
+    },
+    {
+     "value": "10248",
+     "text": "Already in an intersection",
+     "images": []
+    },
+    {
+     "value": "10249",
+     "text": "Going straight ahead",
+     "images": []
+    },
+    {
+     "value": "10250",
+     "text": "Turning left",
+     "images": []
+    }
+   ],
+   "answer": "10250",
+   "answer_text": "Turning left"
+  },
+  {
+   "name": "sgE-7355138-1-106",
+   "page": "1",
+   "qid": "106",
+   "type": "radio",
+   "question": "You must pull over and stop for:",
+   "images": [],
+   "options": [
+    {
+     "value": "10219",
+     "text": "Vehicles that display blue, green or amber lights",
+     "images": []
+    },
+    {
+     "value": "10220",
+     "text": "Authorized emergency vehicles responding to emergencies",
+     "images": []
+    },
+    {
+     "value": "10221",
+     "text": "A hazard vehicle that is parked, stopped or standing on any part of the highway",
+     "images": []
+    },
+    {
+     "value": "10222",
+     "text": "Stopped or standing school buses",
+     "images": []
+    }
+   ],
+   "answer": "10220",
+   "answer_text": "Authorized emergency vehicles responding to emergencies"
+  },
+  {
+   "name": "sgE-7355138-1-111",
+   "page": "1",
+   "qid": "111",
+   "type": "radio",
+   "question": "You drive along a street and hear a siren. You cannot immediately see the emergency vehicle. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10239",
+     "text": "Keep driving until you see the vehicle",
+     "images": []
+    },
+    {
+     "value": "10240",
+     "text": "Pull to the curb and look to see if it is on your street",
+     "images": []
+    },
+    {
+     "value": "10241",
+     "text": "Slow down but don't stop until you see it",
+     "images": []
+    },
+    {
+     "value": "10242",
+     "text": "Speed up and turn at the next intersection",
+     "images": []
+    }
+   ],
+   "answer": "10240",
+   "answer_text": "Pull to the curb and look to see if it is on your street"
+  },
+  {
+   "name": "sgE-7355138-1-110",
+   "page": "1",
+   "qid": "110",
+   "type": "radio",
+   "question": "You want to turn right at the next intersection. You should begin to use your turn signal:",
+   "images": [],
+   "options": [
+    {
+     "value": "10235",
+     "text": "At least 50 feet before the turn",
+     "images": []
+    },
+    {
+     "value": "10236",
+     "text": "When you reach the intersection",
+     "images": []
+    },
+    {
+     "value": "10237",
+     "text": "At least 100 feet before you turn",
+     "images": []
+    },
+    {
+     "value": "10238",
+     "text": "As soon as you see cars behind you",
+     "images": []
+    }
+   ],
+   "answer": "10237",
+   "answer_text": "At least 100 feet before you turn"
+  },
+  {
+   "name": "sgE-7355138-1-116",
+   "page": "1",
+   "qid": "116",
+   "type": "radio",
+   "question": "When you want to make a right turn, your car must be:",
+   "images": [],
+   "options": [
+    {
+     "value": "10259",
+     "text": "Near the center of the street",
+     "images": []
+    },
+    {
+     "value": "10260",
+     "text": "Close to the left side of the street",
+     "images": []
+    },
+    {
+     "value": "10261",
+     "text": "Close to the right side of the street",
+     "images": []
+    },
+    {
+     "value": "10262",
+     "text": "Past the center of the intersection when you begin to turn",
+     "images": []
+    }
+   ],
+   "answer": "10261",
+   "answer_text": "Close to the right side of the street"
+  },
+  {
+   "name": "sgE-7355138-1-107",
+   "page": "1",
+   "qid": "107",
+   "type": "radio",
+   "question": "When you see an emergency vehicle parked, stopped, or standing with its emergency or hazard lights activated on a highway or parkway, you should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10223",
+     "text": "Move out of the lane closest to the emergency vehicle, if possible to do so safely",
+     "images": []
+    },
+    {
+     "value": "10224",
+     "text": "Make a U-turn to avoid the vehicle",
+     "images": []
+    },
+    {
+     "value": "10225",
+     "text": "Maintain your speed and lane position if possible",
+     "images": []
+    },
+    {
+     "value": "10226",
+     "text": "Stop behind the vehicle and activate your hazard lights",
+     "images": []
+    }
+   ],
+   "answer": "10223",
+   "answer_text": "Move out of the lane closest to the emergency vehicle, if possible to do so safely"
+  },
+  {
+   "name": "sgE-7355138-1-105",
+   "page": "1",
+   "qid": "105",
+   "type": "radio",
+   "question": "The law that requires every driver to exercise care to avoid colliding with an authorized emergency or hazard vehicle is called:",
+   "images": [],
+   "options": [
+    {
+     "value": "10215",
+     "text": "Brianna\u2019s Law",
+     "images": []
+    },
+    {
+     "value": "10216",
+     "text": "The Green Light Law",
+     "images": []
+    },
+    {
+     "value": "10217",
+     "text": "Move Over Law",
+     "images": []
+    },
+    {
+     "value": "10218",
+     "text": "Right of Way",
+     "images": []
+    }
+   ],
+   "answer": "10217",
+   "answer_text": "Move Over Law"
+  }
+ ]
+}

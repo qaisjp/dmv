@@ -1,0 +1,645 @@
+{
+ "title": "Chapter 9 - Alcohol and Other Drugs",
+ "questions": [
+  {
+   "name": "sgE-7355145-1-124",
+   "page": "1",
+   "qid": "124",
+   "type": "radio",
+   "question": "Blood alcohol content (BAC) depends on each of the following except:",
+   "images": [],
+   "options": [
+    {
+     "value": "10295",
+     "text": "Your body weight",
+     "images": []
+    },
+    {
+     "value": "10296",
+     "text": "How much you drink",
+     "images": []
+    },
+    {
+     "value": "10297",
+     "text": "How much time passes between drinks",
+     "images": []
+    },
+    {
+     "value": "10298",
+     "text": "How physically fit you are",
+     "images": []
+    }
+   ],
+   "answer": "10298",
+   "answer_text": "How physically fit you are"
+  },
+  {
+   "name": "sgE-7355145-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "Which of the following does alcohol affect?",
+   "images": [],
+   "options": [
+    {
+     "value": "10271",
+     "text": "Recovery from headlight glare",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "Reaction time",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "Judgment of distances",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "All of these choices",
+     "images": []
+    }
+   ],
+   "answer": "10274",
+   "answer_text": "All of these choices"
+  },
+  {
+   "name": "sgE-7355145-1-127",
+   "page": "1",
+   "qid": "127",
+   "type": "radio",
+   "question": "What does alcohol do to your driving skills and judgment?",
+   "images": [],
+   "options": [
+    {
+     "value": "10307",
+     "text": "It helps driving skills but harms your judgment",
+     "images": []
+    },
+    {
+     "value": "10308",
+     "text": "It harms both driving skills and judgment",
+     "images": []
+    },
+    {
+     "value": "10309",
+     "text": "It has no effect on either driving skills or judgment",
+     "images": []
+    },
+    {
+     "value": "10310",
+     "text": "It has no effect on judgment but it harms driving skills",
+     "images": []
+    }
+   ],
+   "answer": "10308",
+   "answer_text": "It harms both driving skills and judgment"
+  },
+  {
+   "name": "sgE-7355145-1-115",
+   "page": "1",
+   "qid": "115",
+   "type": "radio",
+   "question": "A chemical test is used to measure:",
+   "images": [],
+   "options": [
+    {
+     "value": "10259",
+     "text": "Reaction time",
+     "images": []
+    },
+    {
+     "value": "10260",
+     "text": "Blood alcohol content",
+     "images": []
+    },
+    {
+     "value": "10261",
+     "text": "Vision",
+     "images": []
+    },
+    {
+     "value": "10262",
+     "text": "Driving ability",
+     "images": []
+    }
+   ],
+   "answer": "10260",
+   "answer_text": "Blood alcohol content"
+  },
+  {
+   "name": "sgE-7355145-1-113",
+   "page": "1",
+   "qid": "113",
+   "type": "radio",
+   "question": "In this state, what BAC (blood alcohol content) is evidence of intoxication?",
+   "images": [],
+   "options": [
+    {
+     "value": "10251",
+     "text": "0.05%",
+     "images": []
+    },
+    {
+     "value": "10252",
+     "text": "0.03%",
+     "images": []
+    },
+    {
+     "value": "10253",
+     "text": "0.10%",
+     "images": []
+    },
+    {
+     "value": "10254",
+     "text": "0.08%",
+     "images": []
+    }
+   ],
+   "answer": "10254",
+   "answer_text": "0.08%"
+  },
+  {
+   "name": "sgE-7355145-1-114",
+   "page": "1",
+   "qid": "114",
+   "type": "radio",
+   "question": "Which of the following influence the effects of alcohol?",
+   "images": [],
+   "options": [
+    {
+     "value": "10255",
+     "text": "The amount of food in the stomach",
+     "images": []
+    },
+    {
+     "value": "10256",
+     "text": "The body weight of an individual",
+     "images": []
+    },
+    {
+     "value": "10257",
+     "text": "How much time passes between drinks",
+     "images": []
+    },
+    {
+     "value": "10258",
+     "text": "All three choices",
+     "images": []
+    }
+   ],
+   "answer": "10258",
+   "answer_text": "All three choices"
+  },
+  {
+   "name": "sgE-7355145-1-123",
+   "page": "1",
+   "qid": "123",
+   "type": "radio",
+   "question": "What happens to your driver license if you refuse to take a chemical test (breath or blood)?",
+   "images": [],
+   "options": [
+    {
+     "value": "10291",
+     "text": "There is no evidence to find you guilty of drunk driving",
+     "images": []
+    },
+    {
+     "value": "10292",
+     "text": "You cannot be arrested for drunk driving",
+     "images": []
+    },
+    {
+     "value": "10293",
+     "text": "Your driver license will be taken away",
+     "images": []
+    },
+    {
+     "value": "10294",
+     "text": "None of these choices",
+     "images": []
+    }
+   ],
+   "answer": "10293",
+   "answer_text": "Your driver license will be taken away"
+  },
+  {
+   "name": "sgE-7355145-1-109",
+   "page": "1",
+   "qid": "109",
+   "type": "radio",
+   "question": "Which of the following is true? People driving under the influence of alcohol are:",
+   "images": [],
+   "options": [
+    {
+     "value": "10235",
+     "text": "Not a problem in New York State",
+     "images": []
+    },
+    {
+     "value": "10236",
+     "text": "Every driver's problem whether they drink or not",
+     "images": []
+    },
+    {
+     "value": "10237",
+     "text": "A police enforcement problem only",
+     "images": []
+    },
+    {
+     "value": "10238",
+     "text": "Only a problem to those who drink",
+     "images": []
+    }
+   ],
+   "answer": "10236",
+   "answer_text": "Every driver's problem whether they drink or not"
+  },
+  {
+   "name": "sgE-7355145-1-117",
+   "page": "1",
+   "qid": "117",
+   "type": "radio",
+   "question": "Drinking coffee after drinking alcohol:",
+   "images": [],
+   "options": [
+    {
+     "value": "10267",
+     "text": "Decreases blood alcohol content",
+     "images": []
+    },
+    {
+     "value": "10268",
+     "text": "Cancels the effect of the alcohol",
+     "images": []
+    },
+    {
+     "value": "10269",
+     "text": "Has no effect on blood alcohol content",
+     "images": []
+    },
+    {
+     "value": "10270",
+     "text": "Increases blood alcohol content",
+     "images": []
+    }
+   ],
+   "answer": "10269",
+   "answer_text": "Has no effect on blood alcohol content"
+  },
+  {
+   "name": "sgE-7355145-1-116",
+   "page": "1",
+   "qid": "116",
+   "type": "radio",
+   "question": "On average, the human body can dispose of the alcohol in 12 ounces of beer in about:",
+   "images": [],
+   "options": [
+    {
+     "value": "10263",
+     "text": "One hour",
+     "images": []
+    },
+    {
+     "value": "10264",
+     "text": "One day",
+     "images": []
+    },
+    {
+     "value": "10265",
+     "text": "Five minutes",
+     "images": []
+    },
+    {
+     "value": "10266",
+     "text": "Five hours",
+     "images": []
+    }
+   ],
+   "answer": "10263",
+   "answer_text": "One hour"
+  },
+  {
+   "name": "sgE-7355145-1-126",
+   "page": "1",
+   "qid": "126",
+   "type": "radio",
+   "question": "What kinds of drugs, other than alcohol, can affect your driving ability?",
+   "images": [],
+   "options": [
+    {
+     "value": "10303",
+     "text": "An allergy medicine",
+     "images": []
+    },
+    {
+     "value": "10304",
+     "text": "Marijuana",
+     "images": []
+    },
+    {
+     "value": "10305",
+     "text": "A cold remedy",
+     "images": []
+    },
+    {
+     "value": "10306",
+     "text": "All of these choices",
+     "images": []
+    }
+   ],
+   "answer": "10306",
+   "answer_text": "All of these choices"
+  },
+  {
+   "name": "sgE-7355145-1-121",
+   "page": "1",
+   "qid": "121",
+   "type": "radio",
+   "question": "What is the only effective way to reduce your blood alcohol content (BAC)?",
+   "images": [],
+   "options": [
+    {
+     "value": "10283",
+     "text": "Drinking coffee",
+     "images": []
+    },
+    {
+     "value": "10284",
+     "text": "Exercising",
+     "images": []
+    },
+    {
+     "value": "10285",
+     "text": "Allow your body time to get rid of alcohol",
+     "images": []
+    },
+    {
+     "value": "10286",
+     "text": "Taking a cold shower",
+     "images": []
+    }
+   ],
+   "answer": "10285",
+   "answer_text": "Allow your body time to get rid of alcohol"
+  },
+  {
+   "name": "sgE-7355145-1-122",
+   "page": "1",
+   "qid": "122",
+   "type": "radio",
+   "question": "What are the consequences that can result from driving under the influence of alcohol or other drugs?",
+   "images": [],
+   "options": [
+    {
+     "value": "10287",
+     "text": "Possible imprisonment",
+     "images": []
+    },
+    {
+     "value": "10288",
+     "text": "A mandatory fine",
+     "images": []
+    },
+    {
+     "value": "10289",
+     "text": "Driver license revocation",
+     "images": []
+    },
+    {
+     "value": "10290",
+     "text": "All of these choices",
+     "images": []
+    }
+   ],
+   "answer": "10290",
+   "answer_text": "All of these choices"
+  },
+  {
+   "name": "sgE-7355145-1-112",
+   "page": "1",
+   "qid": "112",
+   "type": "radio",
+   "question": "Which of the following does not happen after drinking?",
+   "images": [],
+   "options": [
+    {
+     "value": "10247",
+     "text": "Your reflexes and reaction time slow down",
+     "images": []
+    },
+    {
+     "value": "10248",
+     "text": "Your judgment of speed and distance is distorted",
+     "images": []
+    },
+    {
+     "value": "10249",
+     "text": "You are less alert",
+     "images": []
+    },
+    {
+     "value": "10250",
+     "text": "You calm down so you can concentrate",
+     "images": []
+    }
+   ],
+   "answer": "10250",
+   "answer_text": "You calm down so you can concentrate"
+  },
+  {
+   "name": "sgE-7355145-1-110",
+   "page": "1",
+   "qid": "110",
+   "type": "radio",
+   "question": "If you drink alcohol socially, what helps ensure safe driving?",
+   "images": [],
+   "options": [
+    {
+     "value": "10239",
+     "text": "Drink coffee before driving",
+     "images": []
+    },
+    {
+     "value": "10240",
+     "text": "Ride home with a friend who has not been drinking",
+     "images": []
+    },
+    {
+     "value": "10241",
+     "text": "Take a cold shower before driving",
+     "images": []
+    },
+    {
+     "value": "10242",
+     "text": "Stop drinking one half hour before driving",
+     "images": []
+    }
+   ],
+   "answer": "10240",
+   "answer_text": "Ride home with a friend who has not been drinking"
+  },
+  {
+   "name": "sgE-7355145-1-108",
+   "page": "1",
+   "qid": "108",
+   "type": "radio",
+   "question": "Which of the following statements is true about BAC (blood alcohol content)?",
+   "images": [],
+   "options": [
+    {
+     "value": "10231",
+     "text": "The \"breathalyzer\" is a test of a person's BAC",
+     "images": []
+    },
+    {
+     "value": "10232",
+     "text": "A chemical test for BAC is needed for an alcohol conviction",
+     "images": []
+    },
+    {
+     "value": "10233",
+     "text": "BAC levels are reduced by a person's physical fitness",
+     "images": []
+    },
+    {
+     "value": "10234",
+     "text": "After drinking, coffee or a cold shower will lower your BAC",
+     "images": []
+    }
+   ],
+   "answer": "10231",
+   "answer_text": "The \"breathalyzer\" is a test of a person's BAC"
+  },
+  {
+   "name": "sgE-7355145-1-111",
+   "page": "1",
+   "qid": "111",
+   "type": "radio",
+   "question": "What effect does drinking alcohol and taking a prescription drug or over the counter medicine have?",
+   "images": [],
+   "options": [
+    {
+     "value": "10243",
+     "text": "The medicine reduces the effect of the alcohol",
+     "images": []
+    },
+    {
+     "value": "10244",
+     "text": "The alcohol will help the medicine cure the cold",
+     "images": []
+    },
+    {
+     "value": "10245",
+     "text": "The combination could multiply the effects of the alcohol",
+     "images": []
+    },
+    {
+     "value": "10246",
+     "text": "No effect, they are difference substances",
+     "images": []
+    }
+   ],
+   "answer": "10245",
+   "answer_text": "The combination could multiply the effects of the alcohol"
+  },
+  {
+   "name": "sgE-7355145-1-125",
+   "page": "1",
+   "qid": "125",
+   "type": "radio",
+   "question": "What effect might alcohol and another drug have when combined in your blood?",
+   "images": [],
+   "options": [
+    {
+     "value": "10299",
+     "text": "Increase the effects of both",
+     "images": []
+    },
+    {
+     "value": "10300",
+     "text": "Have no effect on driving ability",
+     "images": []
+    },
+    {
+     "value": "10301",
+     "text": "Reduce the effects of the drug or medicine",
+     "images": []
+    },
+    {
+     "value": "10302",
+     "text": "Reduce the effects of the alcohol",
+     "images": []
+    }
+   ],
+   "answer": "10299",
+   "answer_text": "Increase the effects of both"
+  },
+  {
+   "name": "sgE-7355145-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "A driver who is taking a non-prescription drug should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Read the labels on the drug before driving",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Drink alcohol instead",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Continue to drive",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Drive only during daylight hours",
+     "images": []
+    }
+   ],
+   "answer": "10275",
+   "answer_text": "Read the labels on the drug before driving"
+  },
+  {
+   "name": "sgE-7355145-1-120",
+   "page": "1",
+   "qid": "120",
+   "type": "radio",
+   "question": "Drinking alcohol and driving is:",
+   "images": [],
+   "options": [
+    {
+     "value": "10279",
+     "text": "A minor traffic safety problem",
+     "images": []
+    },
+    {
+     "value": "10280",
+     "text": "A serious traffic safety problem",
+     "images": []
+    },
+    {
+     "value": "10281",
+     "text": "Safe if you only have a few drinks",
+     "images": []
+    },
+    {
+     "value": "10282",
+     "text": "Only dangerous to the driver who drinks",
+     "images": []
+    }
+   ],
+   "answer": "10280",
+   "answer_text": "A serious traffic safety problem"
+  }
+ ]
+}

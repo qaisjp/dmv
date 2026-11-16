@@ -1,0 +1,293 @@
+{
+ "title": "Chapter 7 - Parallel Parking",
+ "questions": [
+  {
+   "name": "sgE-7355139-1-98",
+   "page": "1",
+   "qid": "98",
+   "type": "radio",
+   "question": "A driver may park in a space reserved for people with disabilities if the vehicle displays license plates for the disabled:",
+   "images": [],
+   "options": [
+    {
+     "value": "10191",
+     "text": "Regardless of who is in the vehicle",
+     "images": []
+    },
+    {
+     "value": "10192",
+     "text": "Only if the driver is disabled",
+     "images": []
+    },
+    {
+     "value": "10193",
+     "text": "And is carrying a disabled person named on the registration",
+     "images": []
+    },
+    {
+     "value": "10194",
+     "text": "If someone in the driver's immediate family is disabled",
+     "images": []
+    }
+   ],
+   "answer": "10193",
+   "answer_text": "And is carrying a disabled person named on the registration"
+  },
+  {
+   "name": "sgE-7355139-1-99",
+   "page": "1",
+   "qid": "99",
+   "type": "radio",
+   "question": "Before you leave a parking space which is parallel to the curb, you should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10195",
+     "text": "Sound your horn",
+     "images": []
+    },
+    {
+     "value": "10196",
+     "text": "Turn on your four-way flasher",
+     "images": []
+    },
+    {
+     "value": "10197",
+     "text": "Look for traffic by turning your head",
+     "images": []
+    },
+    {
+     "value": "10198",
+     "text": "Look for traffic by using your inside rear-view mirror",
+     "images": []
+    }
+   ],
+   "answer": "10197",
+   "answer_text": "Look for traffic by turning your head"
+  },
+  {
+   "name": "sgE-7355139-1-104",
+   "page": "1",
+   "qid": "104",
+   "type": "radio",
+   "question": "A \"no parking\" sign at a certain location means:",
+   "images": [],
+   "options": [
+    {
+     "value": "10215",
+     "text": "You may never stop your vehicle there",
+     "images": []
+    },
+    {
+     "value": "10216",
+     "text": "You may stop temporarily to load or unload passengers",
+     "images": []
+    },
+    {
+     "value": "10217",
+     "text": "You may park there if the driver remains in the vehicle",
+     "images": []
+    },
+    {
+     "value": "10218",
+     "text": "You may leave your vehicle unattended for less than 5 minutes",
+     "images": []
+    }
+   ],
+   "answer": "10216",
+   "answer_text": "You may stop temporarily to load or unload passengers"
+  },
+  {
+   "name": "sgE-7355139-1-100",
+   "page": "1",
+   "qid": "100",
+   "type": "radio",
+   "question": "If you are parked parallel to the curb, you may get out of the car on the traffic side:",
+   "images": [],
+   "options": [
+    {
+     "value": "10199",
+     "text": "During the daytime when other drivers can see you",
+     "images": []
+    },
+    {
+     "value": "10200",
+     "text": "When the traffic light at the closest intersection turns red",
+     "images": []
+    },
+    {
+     "value": "10201",
+     "text": "When you won't interfere with oncoming vehicles",
+     "images": []
+    },
+    {
+     "value": "10202",
+     "text": "If you use your four-way flasher first",
+     "images": []
+    }
+   ],
+   "answer": "10201",
+   "answer_text": "When you won't interfere with oncoming vehicles"
+  },
+  {
+   "name": "sgE-7355139-1-101",
+   "page": "1",
+   "qid": "101",
+   "type": "radio",
+   "question": "Assuming that the street is level, what should you do after you have finished parallel parking in a space between two other cars?",
+   "images": [],
+   "options": [
+    {
+     "value": "10203",
+     "text": "Leave your front wheels turned toward the curb",
+     "images": []
+    },
+    {
+     "value": "10204",
+     "text": "Make sure your car almost touches the car behind you",
+     "images": []
+    },
+    {
+     "value": "10205",
+     "text": "Move as far forward in the space as possible",
+     "images": []
+    },
+    {
+     "value": "10206",
+     "text": "Straighten your front wheels and leave room between cars",
+     "images": []
+    }
+   ],
+   "answer": "10206",
+   "answer_text": "Straighten your front wheels and leave room between cars"
+  },
+  {
+   "name": "sgE-7355139-1-97",
+   "page": "1",
+   "qid": "97",
+   "type": "radio",
+   "question": "In a parking space reserved for people with disabilities, a non-disabled driver:",
+   "images": [],
+   "options": [
+    {
+     "value": "10187",
+     "text": "May park in an emergency",
+     "images": []
+    },
+    {
+     "value": "10188",
+     "text": "May not park, but stop in an emergency",
+     "images": []
+    },
+    {
+     "value": "10189",
+     "text": "May not park or stop, but may stand in an emergency",
+     "images": []
+    },
+    {
+     "value": "10190",
+     "text": "May neither park, stop, nor stand",
+     "images": []
+    }
+   ],
+   "answer": "10190",
+   "answer_text": "May neither park, stop, nor stand"
+  },
+  {
+   "name": "sgE-7355139-1-102",
+   "page": "1",
+   "qid": "102",
+   "type": "radio",
+   "question": "You may never park:",
+   "images": [],
+   "options": [
+    {
+     "value": "10207",
+     "text": "On a one-way street",
+     "images": []
+    },
+    {
+     "value": "10208",
+     "text": "At the entrance of a building",
+     "images": []
+    },
+    {
+     "value": "10209",
+     "text": "In a crosswalk",
+     "images": []
+    },
+    {
+     "value": "10210",
+     "text": "Within 50 feet of a fire hydrant",
+     "images": []
+    }
+   ],
+   "answer": "10209",
+   "answer_text": "In a crosswalk"
+  },
+  {
+   "name": "sgE-7355139-1-105",
+   "page": "1",
+   "qid": "105",
+   "type": "radio",
+   "question": "A \"no standing\" sign at a certain location means:",
+   "images": [],
+   "options": [
+    {
+     "value": "10219",
+     "text": "You may never stop your vehicle there",
+     "images": []
+    },
+    {
+     "value": "10220",
+     "text": "You may park there if the driver remains in the vehicle",
+     "images": []
+    },
+    {
+     "value": "10221",
+     "text": "You may stop temporarily to pick up or discharge passengers",
+     "images": []
+    },
+    {
+     "value": "10222",
+     "text": "You may stop to load or unload merchandise",
+     "images": []
+    }
+   ],
+   "answer": "10221",
+   "answer_text": "You may stop temporarily to pick up or discharge passengers"
+  },
+  {
+   "name": "sgE-7355139-1-103",
+   "page": "1",
+   "qid": "103",
+   "type": "radio",
+   "question": "A \"no stopping\" sign means that, unless directed to do so by a policeman, you may stop only:",
+   "images": [],
+   "options": [
+    {
+     "value": "10211",
+     "text": "Long enough to unload packages",
+     "images": []
+    },
+    {
+     "value": "10212",
+     "text": "To avoid conflict with other traffic",
+     "images": []
+    },
+    {
+     "value": "10213",
+     "text": "To discharge passengers",
+     "images": []
+    },
+    {
+     "value": "10214",
+     "text": "For less than 5 minutes",
+     "images": []
+    }
+   ],
+   "answer": "10212",
+   "answer_text": "To avoid conflict with other traffic"
+  }
+ ]
+}

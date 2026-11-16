@@ -1,0 +1,711 @@
+{
+ "title": "Chapter 10 - Special Driving Conditions",
+ "questions": [
+  {
+   "name": "sgE-7355144-1-127",
+   "page": "1",
+   "qid": "127",
+   "type": "radio",
+   "question": "If an approaching train is near enough or going fast enough to be a danger, you must:",
+   "images": [],
+   "options": [
+    {
+     "value": "10307",
+     "text": "Slow down and proceed with caution",
+     "images": []
+    },
+    {
+     "value": "10308",
+     "text": "Not cross the tracks until the train has completely passed",
+     "images": []
+    },
+    {
+     "value": "10309",
+     "text": "Cross the tracks at your own risk",
+     "images": []
+    },
+    {
+     "value": "10310",
+     "text": "Find an alternative route across tracks",
+     "images": []
+    }
+   ],
+   "answer": "10308",
+   "answer_text": "Not cross the tracks until the train has completely passed"
+  },
+  {
+   "name": "sgE-7355144-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "When driving at night, it is most important for you to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10271",
+     "text": "Use your high beams at all times",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "Drive within range of your headlights",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "Be ready to brake more quickly",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "Watch for cars at intersections",
+     "images": []
+    }
+   ],
+   "answer": "10272",
+   "answer_text": "Drive within range of your headlights"
+  },
+  {
+   "name": "sgE-7355144-1-117",
+   "page": "1",
+   "qid": "117",
+   "type": "radio",
+   "question": "If you drive past your exit on an expressway, you should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10267",
+     "text": "Pull onto the shoulder, then back up to the exit",
+     "images": []
+    },
+    {
+     "value": "10268",
+     "text": "Drive to the next exit and leave the expressway",
+     "images": []
+    },
+    {
+     "value": "10269",
+     "text": "Make a U-turn at the nearest emergency turn area",
+     "images": []
+    },
+    {
+     "value": "10270",
+     "text": "Make a U-turn at the next service area",
+     "images": []
+    }
+   ],
+   "answer": "10268",
+   "answer_text": "Drive to the next exit and leave the expressway"
+  },
+  {
+   "name": "sgE-7355144-1-121",
+   "page": "1",
+   "qid": "121",
+   "type": "radio",
+   "question": "Your car starts to skid on a slippery road. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10283",
+     "text": "Brake quickly and keep the wheel straight",
+     "images": []
+    },
+    {
+     "value": "10284",
+     "text": "Lock your brakes until you have come to a complete stop",
+     "images": []
+    },
+    {
+     "value": "10285",
+     "text": "Steer in the direction you want the front wheels to go",
+     "images": []
+    },
+    {
+     "value": "10286",
+     "text": "Steer toward the side of the road to get off the wet pavement",
+     "images": []
+    }
+   ],
+   "answer": "10285",
+   "answer_text": "Steer in the direction you want the front wheels to go"
+  },
+  {
+   "name": "sgE-7355144-1-114",
+   "page": "1",
+   "qid": "114",
+   "type": "radio",
+   "question": "When attempting to stop on a slippery road, the best action to take is:",
+   "images": [],
+   "options": [
+    {
+     "value": "10255",
+     "text": "Apply the brakes quickly and firmly",
+     "images": []
+    },
+    {
+     "value": "10256",
+     "text": "Apply the brakes in slow, steady strokes",
+     "images": []
+    },
+    {
+     "value": "10257",
+     "text": "Shift to a lower gear, do not use the brakes",
+     "images": []
+    },
+    {
+     "value": "10258",
+     "text": "Shift into neutral, do not use the brakes",
+     "images": []
+    }
+   ],
+   "answer": "10256",
+   "answer_text": "Apply the brakes in slow, steady strokes"
+  },
+  {
+   "name": "sgE-7355144-1-113",
+   "page": "1",
+   "qid": "113",
+   "type": "radio",
+   "question": "When your right wheels run onto a soft shoulder, what is the best way to get back on the highway?",
+   "images": [],
+   "options": [
+    {
+     "value": "10251",
+     "text": "Apply the brakes firmly and steer gently to the left",
+     "images": []
+    },
+    {
+     "value": "10252",
+     "text": "Ease your foot off the gas and brake gently",
+     "images": []
+    },
+    {
+     "value": "10253",
+     "text": "Steer hard to the left and then gently to the right",
+     "images": []
+    },
+    {
+     "value": "10254",
+     "text": "Apply the brakes firmly and stop completely",
+     "images": []
+    }
+   ],
+   "answer": "10252",
+   "answer_text": "Ease your foot off the gas and brake gently"
+  },
+  {
+   "name": "sgE-7355144-1-122",
+   "page": "1",
+   "qid": "122",
+   "type": "radio",
+   "question": "You have just left an expressway and are starting to drive on an ordinary highway. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10287",
+     "text": "Check your tires for correct pressure",
+     "images": []
+    },
+    {
+     "value": "10288",
+     "text": "Check your speedometer to keep at the lower speed limit",
+     "images": []
+    },
+    {
+     "value": "10289",
+     "text": "Stay twice as far behind other cars",
+     "images": []
+    },
+    {
+     "value": "10290",
+     "text": "Change gradually to the lower speed limit",
+     "images": []
+    }
+   ],
+   "answer": "10288",
+   "answer_text": "Check your speedometer to keep at the lower speed limit"
+  },
+  {
+   "name": "sgE-7355144-1-120",
+   "page": "1",
+   "qid": "120",
+   "type": "radio",
+   "question": "Expressways have \"expressway entrance lanes\" (acceleration lanes) so that drivers can:",
+   "images": [],
+   "options": [
+    {
+     "value": "10279",
+     "text": "Test their brakes before driving at expressway speeds",
+     "images": []
+    },
+    {
+     "value": "10280",
+     "text": "Stop at the end to wait for a traffic opening",
+     "images": []
+    },
+    {
+     "value": "10281",
+     "text": "Reach the proper speed before blending with traffic",
+     "images": []
+    },
+    {
+     "value": "10282",
+     "text": "Test the pickup of their cars",
+     "images": []
+    }
+   ],
+   "answer": "10281",
+   "answer_text": "Reach the proper speed before blending with traffic"
+  },
+  {
+   "name": "sgE-7355144-1-111",
+   "page": "1",
+   "qid": "111",
+   "type": "radio",
+   "question": "When you drive at night, you can reduce the problem of glare from the headlights of an approaching car by:",
+   "images": [],
+   "options": [
+    {
+     "value": "10243",
+     "text": "Looking to the lower right side of your lane",
+     "images": []
+    },
+    {
+     "value": "10244",
+     "text": "Having the inside lights on to make the amount of light equal",
+     "images": []
+    },
+    {
+     "value": "10245",
+     "text": "Looking at the spot on the lower edge of the steering wheel",
+     "images": []
+    },
+    {
+     "value": "10246",
+     "text": "Wearing glasses with lightly tinted lenses",
+     "images": []
+    }
+   ],
+   "answer": "10243",
+   "answer_text": "Looking to the lower right side of your lane"
+  },
+  {
+   "name": "sgE-7355144-1-131",
+   "page": "1",
+   "qid": "131",
+   "type": "radio",
+   "question": "This sign (railroad crossing) is a warning that you are approaching:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/railroadcrossing.png"
+   ],
+   "options": [
+    {
+     "value": "10323",
+     "text": "An intersection",
+     "images": []
+    },
+    {
+     "value": "10324",
+     "text": "A crosswalk",
+     "images": []
+    },
+    {
+     "value": "10325",
+     "text": "A railroad crossing",
+     "images": []
+    },
+    {
+     "value": "10326",
+     "text": "A blasting zone",
+     "images": []
+    }
+   ],
+   "answer": "10325",
+   "answer_text": "A railroad crossing"
+  },
+  {
+   "name": "sgE-7355144-1-130",
+   "page": "1",
+   "qid": "130",
+   "type": "radio",
+   "question": "What vehicles must stop at all railroad crossings?",
+   "images": [],
+   "options": [
+    {
+     "value": "10319",
+     "text": "Pickup trucks",
+     "images": []
+    },
+    {
+     "value": "10320",
+     "text": "School buses and passenger buses carrying passengers",
+     "images": []
+    },
+    {
+     "value": "10321",
+     "text": "Motorcycles",
+     "images": []
+    },
+    {
+     "value": "10322",
+     "text": "Vehicles towing a trailer",
+     "images": []
+    }
+   ],
+   "answer": "10320",
+   "answer_text": "School buses and passenger buses carrying passengers"
+  },
+  {
+   "name": "sgE-7355144-1-124",
+   "page": "1",
+   "qid": "124",
+   "type": "radio",
+   "question": "Night driving is dangerous because:",
+   "images": [],
+   "options": [
+    {
+     "value": "10295",
+     "text": "Some traffic signs are less visible at night",
+     "images": []
+    },
+    {
+     "value": "10296",
+     "text": "More vehicles are on the road at night",
+     "images": []
+    },
+    {
+     "value": "10297",
+     "text": "The distance we can see ahead is reduced",
+     "images": []
+    },
+    {
+     "value": "10298",
+     "text": "Street lights tend to blur our vision",
+     "images": []
+    }
+   ],
+   "answer": "10297",
+   "answer_text": "The distance we can see ahead is reduced"
+  },
+  {
+   "name": "sgE-7355144-1-115",
+   "page": "1",
+   "qid": "115",
+   "type": "radio",
+   "question": "If a tire blows out, the proper thing to do is:",
+   "images": [],
+   "options": [
+    {
+     "value": "10259",
+     "text": "Speed up to gain traction and then pull to the right",
+     "images": []
+    },
+    {
+     "value": "10260",
+     "text": "Hold the steering wheel firmly, and ease up on the gas",
+     "images": []
+    },
+    {
+     "value": "10261",
+     "text": "Apply the brakes, then shift into neutral",
+     "images": []
+    },
+    {
+     "value": "10262",
+     "text": "Shift into neutral, then apply the brakes",
+     "images": []
+    }
+   ],
+   "answer": "10260",
+   "answer_text": "Hold the steering wheel firmly, and ease up on the gas"
+  },
+  {
+   "name": "sgE-7355144-1-123",
+   "page": "1",
+   "qid": "123",
+   "type": "radio",
+   "question": "Which of the following statements applies to all driving emergency situations?",
+   "images": [],
+   "options": [
+    {
+     "value": "10291",
+     "text": "Always slow down gradually",
+     "images": []
+    },
+    {
+     "value": "10292",
+     "text": "Your first reaction is the best reaction",
+     "images": []
+    },
+    {
+     "value": "10293",
+     "text": "Think before you act",
+     "images": []
+    },
+    {
+     "value": "10294",
+     "text": "Apply your brakes immediately",
+     "images": []
+    }
+   ],
+   "answer": "10293",
+   "answer_text": "Think before you act"
+  },
+  {
+   "name": "sgE-7355144-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "When you drive in heavy fog during daylight hours you should drive with your:",
+   "images": [],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Headlights off",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Parking lights on",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Headlights on low beam",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Headlights on high beam",
+     "images": []
+    }
+   ],
+   "answer": "10277",
+   "answer_text": "Headlights on low beam"
+  },
+  {
+   "name": "sgE-7355144-1-129",
+   "page": "1",
+   "qid": "129",
+   "type": "radio",
+   "question": "What is the appropriate action to take when approaching a railroad crossing that does not have signals (such as lights or crossing gates)?",
+   "images": [],
+   "options": [
+    {
+     "value": "10315",
+     "text": "Always bring the car to a complete stop",
+     "images": []
+    },
+    {
+     "value": "10316",
+     "text": "Slow down and be prepared to stop",
+     "images": []
+    },
+    {
+     "value": "10317",
+     "text": "Do nothing; all railroad crosings have signals",
+     "images": []
+    },
+    {
+     "value": "10318",
+     "text": "Increase speed to get across the tracks quickly",
+     "images": []
+    }
+   ],
+   "answer": "10316",
+   "answer_text": "Slow down and be prepared to stop"
+  },
+  {
+   "name": "sgE-7355144-1-116",
+   "page": "1",
+   "qid": "116",
+   "type": "radio",
+   "question": "When you get ready to leave an expressway, you should begin to use your turn signal:",
+   "images": [],
+   "options": [
+    {
+     "value": "10263",
+     "text": "Just as you get to the exit ramp",
+     "images": []
+    },
+    {
+     "value": "10264",
+     "text": "50 feet before the exit ramp",
+     "images": []
+    },
+    {
+     "value": "10265",
+     "text": "100 feet before the exit ramp",
+     "images": []
+    },
+    {
+     "value": "10266",
+     "text": "When you see cars behind you in the exit lane",
+     "images": []
+    }
+   ],
+   "answer": "10265",
+   "answer_text": "100 feet before the exit ramp"
+  },
+  {
+   "name": "sgE-7355144-1-128",
+   "page": "1",
+   "qid": "128",
+   "type": "radio",
+   "question": "If traffic prevents you from crossing all the way across a set of railroad tracks, you may proceed only when:",
+   "images": [],
+   "options": [
+    {
+     "value": "10311",
+     "text": "An approaching train is not moving fast enough to be a danger",
+     "images": []
+    },
+    {
+     "value": "10312",
+     "text": "There is room for your vehicle on the other side",
+     "images": []
+    },
+    {
+     "value": "10313",
+     "text": "At least one half of your vehicle can cross the tracks",
+     "images": []
+    },
+    {
+     "value": "10314",
+     "text": "No trains are in sight",
+     "images": []
+    }
+   ],
+   "answer": "10312",
+   "answer_text": "There is room for your vehicle on the other side"
+  },
+  {
+   "name": "sgE-7355144-1-125",
+   "page": "1",
+   "qid": "125",
+   "type": "radio",
+   "question": "Why is driving on an expressway different from driving on an ordinary street?",
+   "images": [],
+   "options": [
+    {
+     "value": "10299",
+     "text": "You must think faster and handle your vehicle more effectively",
+     "images": []
+    },
+    {
+     "value": "10300",
+     "text": "Trucks have to go slower on the expressways",
+     "images": []
+    },
+    {
+     "value": "10301",
+     "text": "There is more of a tendency to exceed the speed limit",
+     "images": []
+    },
+    {
+     "value": "10302",
+     "text": "There is more of a tendency to \"tailgate\"",
+     "images": []
+    }
+   ],
+   "answer": "10299",
+   "answer_text": "You must think faster and handle your vehicle more effectively"
+  },
+  {
+   "name": "sgE-7355144-1-110",
+   "page": "1",
+   "qid": "110",
+   "type": "radio",
+   "question": "You are getting on a highway which has a very short entrance lane. The safest way for you to enter the flow of traffic would be to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10239",
+     "text": "Use as much ramp as possible to get up to cruising speed",
+     "images": []
+    },
+    {
+     "value": "10240",
+     "text": "Use the left lane of the highway to get up to cruising speed",
+     "images": []
+    },
+    {
+     "value": "10241",
+     "text": "Wait for a large gap in traffic then speed up quickly",
+     "images": []
+    },
+    {
+     "value": "10242",
+     "text": "Get up to cruising speed gradually so other cars will see you",
+     "images": []
+    }
+   ],
+   "answer": "10241",
+   "answer_text": "Wait for a large gap in traffic then speed up quickly"
+  },
+  {
+   "name": "sgE-7355144-1-126",
+   "page": "1",
+   "qid": "126",
+   "type": "radio",
+   "question": "You may drive around or under a gate that is being lowered or raised at a railroad crossing:",
+   "images": [],
+   "options": [
+    {
+     "value": "10303",
+     "text": "As long as an approaching train is not too close",
+     "images": []
+    },
+    {
+     "value": "10304",
+     "text": "If your vehicle can do so without damaging the gate",
+     "images": []
+    },
+    {
+     "value": "10305",
+     "text": "If you first look carefully in both directions",
+     "images": []
+    },
+    {
+     "value": "10306",
+     "text": "Under no circumstances",
+     "images": []
+    }
+   ],
+   "answer": "10306",
+   "answer_text": "Under no circumstances"
+  },
+  {
+   "name": "sgE-7355144-1-112",
+   "page": "1",
+   "qid": "112",
+   "type": "radio",
+   "question": "If your brake pedal suddenly sinks to the floor, you should first:",
+   "images": [],
+   "options": [
+    {
+     "value": "10247",
+     "text": "Try to pump it to build up the pressure",
+     "images": []
+    },
+    {
+     "value": "10248",
+     "text": "Shift into neutral and shut the engine off",
+     "images": []
+    },
+    {
+     "value": "10249",
+     "text": "Try to raise it by hooking your toe under it",
+     "images": []
+    },
+    {
+     "value": "10250",
+     "text": "Apply the parking brake hard to stop the car",
+     "images": []
+    }
+   ],
+   "answer": "10247",
+   "answer_text": "Try to pump it to build up the pressure"
+  }
+ ]
+}

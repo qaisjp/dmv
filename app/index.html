@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NY DMV Permit — Teach Me</title>
+<style>
+  :root {
+    --bg: #f6f7fb; --card: #fff; --ink: #282e3e; --muted: #586380; --line: #d9dde8;
+    --brand: #4255ff; --brand-ink: #fff; --good: #18ae79; --good-bg: #e6f7f0;
+    --bad: #ff725b; --bad-bg: #ffefec; --shadow: 0 4px 16px rgba(40,46,62,.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0a092d; --card: #2e3856; --ink: #f6f7fb; --muted: #a8b1cf; --line: #4a5577;
+      --good-bg: #133d3a; --bad-bg: #4a2a33; --shadow: 0 4px 16px rgba(0,0,0,.3); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; align-items: center; gap: 12px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--card); position: sticky; top: 0; z-index: 2; }
+  header h1 { font-size: 18px; margin: 0; cursor: pointer; }
+  header .spacer { flex: 1; }
+  main { max-width: 1000px; margin: 0 auto; padding: 24px 16px 80px; }
+  button { font: inherit; cursor: pointer; border-radius: 8px; border: 2px solid var(--line); background: var(--card); color: var(--ink); padding: 8px 16px; }
+  button:hover { border-color: var(--muted); }
+  button.primary { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); font-weight: 600; }
+  button.primary:hover { filter: brightness(1.08); }
+  button.link { border: none; background: none; color: var(--brand); padding: 4px 8px; }
+  .card { background: var(--card); border-radius: 16px; box-shadow: var(--shadow); padding: 28px; }
+  .muted { color: var(--muted); }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  h2 { margin: 0 0 12px; }
+
+  /* home */
+  .deck { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .deck:last-child { border-bottom: none; }
+  .deck label { flex: 1; cursor: pointer; display: flex; gap: 12px; align-items: center; }
+  .deck input { width: 20px; height: 20px; accent-color: var(--brand); }
+  .meter { width: 140px; height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; display: flex; }
+  .meter i { display: block; height: 100%; }
+  .meter .m { background: var(--good); } .meter .f { background: #ffcd1f; }
+  .modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 20px; }
+  .mode { text-align: left; padding: 18px; border-radius: 14px; }
+  .mode b { display: block; font-size: 18px; margin-bottom: 4px; }
+
+  /* learn */
+  .progress { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; font-size: 14px; }
+  .bar { flex: 1; height: 10px; border-radius: 5px; background: var(--line); overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--good); transition: width .3s; }
+  .tag { display: inline-block; font-size: 13px; font-weight: 600; padding: 2px 10px; border-radius: 999px; background: var(--bg); color: var(--muted); margin-bottom: 12px; }
+  .q { font-size: 21px; margin: 0 0 18px; }
+  .q-img { display: block; height: 120px; margin: 0 0 20px; image-rendering: auto; }
+  /* Options sit side by side, left to right in hotkey order (1 2 3 4). */
+  .opts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  @media (max-width: 720px) { .opts { grid-template-columns: 1fr; } }
+  .opt { text-align: left; padding: 14px; border-radius: 10px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; min-height: 110px; }
+  @media (max-width: 720px) { .opt { flex-direction: row; min-height: 64px; } }
+  .opt .k { flex: none; height: 24px; padding: 0 8px; border-radius: 999px; background: var(--bg); font-size: 13px; display: flex; gap: 6px; align-items: center; color: var(--muted); }
+  .opt .k small { font-size: 11px; opacity: .7; }
+  .opt.correct { border-color: var(--good); background: var(--good-bg); }
+  .opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
+  .opt.dim { opacity: .55; }
+  .opts.locked .opt { cursor: default; }
+  .feedback { margin-top: 18px; display: flex; align-items: center; gap: 12px; min-height: 44px; }
+  .feedback .msg { flex: 1; font-weight: 600; }
+  .feedback .msg.good { color: var(--good); } .feedback .msg.bad { color: var(--bad); }
+  .kbd { font-size: 12px; color: var(--muted); }
+
+  /* flashcards */
+  .flip { perspective: 1200px; cursor: pointer; user-select: none; }
+  .flip-inner { position: relative; min-height: 340px; transition: transform .45s; transform-style: preserve-3d; }
+  .flip.flipped .flip-inner { transform: rotateY(180deg); }
+  .face { position: absolute; inset: 0; backface-visibility: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 36px; }
+  .face.back { transform: rotateY(180deg); }
+  .face .q { font-size: 23px; }
+  .face .ans { font-size: 26px; font-weight: 600; }
+  .fc-nav { display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 18px; }
+
+  /* test / summary */
+  .tq { padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .tq:last-child { border-bottom: none; }
+  .tq .q { font-size: 18px; }
+  .score { font-size: 48px; font-weight: 700; }
+  .review-item { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .review-item .a { color: var(--good); font-weight: 600; }
+  .review-item .y { color: var(--bad); text-decoration: line-through; }
+  .qhead { display: flex; align-items: flex-start; gap: 8px; }
+  .qhead .tag { margin-right: auto; }
+  .hard-btn { font-size: 13px; font-weight: 600; padding: 3px 12px; border-radius: 999px; border-width: 1px; color: var(--muted); flex: none; }
+  .hard-btn.on { background: #ff8f1f; border-color: #ff8f1f; color: #fff; }
+  .review-item .hard-btn { float: right; margin-left: 8px; }
+  .face .hard-btn { position: absolute; top: 16px; right: 16px; }
+  .streak { letter-spacing: 2px; }
+  .mode:disabled { opacity: .5; cursor: not-allowed; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="home-link">🚗 NY Permit — Teach Me</h1>
+  <span class="spacer"></span>
+  <span id="header-info" class="muted"></span>
+  <button id="exit-btn" class="link hidden">✕ Exit</button>
+</header>
+<main id="view"></main>
+
+<script src="data.js"></script>
+<script src="store.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+{
+ "title": "Chapter 11 - Sharing the Road",
+ "questions": [
+  {
+   "name": "sgE-7355143-1-101",
+   "page": "1",
+   "qid": "101",
+   "type": "radio",
+   "question": "On a road which has no sidewalks a pedestrian should walk on the:",
+   "images": [],
+   "options": [
+    {
+     "value": "10203",
+     "text": "Side of the road which has the lightest traffic",
+     "images": []
+    },
+    {
+     "value": "10204",
+     "text": "Same side of the road in which traffic is moving",
+     "images": []
+    },
+    {
+     "value": "10205",
+     "text": "Side of the road facing oncoming traffic",
+     "images": []
+    },
+    {
+     "value": "10206",
+     "text": "Side of the road which has the heaviest traffic",
+     "images": []
+    }
+   ],
+   "answer": "10205",
+   "answer_text": "Side of the road facing oncoming traffic"
+  },
+  {
+   "name": "sgE-7355143-1-99",
+   "page": "1",
+   "qid": "99",
+   "type": "radio",
+   "question": "What does a \"slow moving vehicle\" emblem look like?",
+   "images": [],
+   "options": [
+    {
+     "value": "10195",
+     "text": "A square red sign",
+     "images": []
+    },
+    {
+     "value": "10196",
+     "text": "A round green sign",
+     "images": []
+    },
+    {
+     "value": "10197",
+     "text": "A diamon-shaped yellow sign",
+     "images": []
+    },
+    {
+     "value": "10198",
+     "text": "A triangular orange sign",
+     "images": []
+    }
+   ],
+   "answer": "10198",
+   "answer_text": "A triangular orange sign"
+  },
+  {
+   "name": "sgE-7355143-1-96",
+   "page": "1",
+   "qid": "96",
+   "type": "radio",
+   "question": "You want to back out of your driveway. You see children playing nearby. Before you start to move your car you should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10183",
+     "text": "Race your motor to warn the children that you are moving",
+     "images": []
+    },
+    {
+     "value": "10184",
+     "text": "Sound your horn so the children will hear you",
+     "images": []
+    },
+    {
+     "value": "10185",
+     "text": "Walk to the back of the car to be sure the way is clear",
+     "images": []
+    },
+    {
+     "value": "10186",
+     "text": "Tell the children to stay away from the driveway",
+     "images": []
+    }
+   ],
+   "answer": "10185",
+   "answer_text": "Walk to the back of the car to be sure the way is clear"
+  },
+  {
+   "name": "sgE-7355143-1-98",
+   "page": "1",
+   "qid": "98",
+   "type": "radio",
+   "question": "Motorists should be aware that all bicycles used after dark must have:",
+   "images": [],
+   "options": [
+    {
+     "value": "10191",
+     "text": "Reflective handlebar grips",
+     "images": []
+    },
+    {
+     "value": "10192",
+     "text": "A front headlight and red taillight",
+     "images": []
+    },
+    {
+     "value": "10193",
+     "text": "White reflectors on the front and rear fenders",
+     "images": []
+    },
+    {
+     "value": "10194",
+     "text": "Brake lights",
+     "images": []
+    }
+   ],
+   "answer": "10192",
+   "answer_text": "A front headlight and red taillight"
+  },
+  {
+   "name": "sgE-7355143-1-100",
+   "page": "1",
+   "qid": "100",
+   "type": "radio",
+   "question": "A motorist should know that a bicyclist operating on a roadway must:",
+   "images": [],
+   "options": [
+    {
+     "value": "10199",
+     "text": "Ride on the right side of the road",
+     "images": []
+    },
+    {
+     "value": "10200",
+     "text": "Ride on the side of the road facing traffic",
+     "images": []
+    },
+    {
+     "value": "10201",
+     "text": "Ride on either side of the road",
+     "images": []
+    },
+    {
+     "value": "10202",
+     "text": "Ride on the side of the road with the least traffic",
+     "images": []
+    }
+   ],
+   "answer": "10199",
+   "answer_text": "Ride on the right side of the road"
+  },
+  {
+   "name": "sgE-7355143-1-97",
+   "page": "1",
+   "qid": "97",
+   "type": "radio",
+   "question": "A motorist approaching a bicyclist should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10187",
+     "text": "Speed up to pass him",
+     "images": []
+    },
+    {
+     "value": "10188",
+     "text": "Proceed as usual",
+     "images": []
+    },
+    {
+     "value": "10189",
+     "text": "Swerve into the opposite lane",
+     "images": []
+    },
+    {
+     "value": "10190",
+     "text": "Exercise extreme caution",
+     "images": []
+    }
+   ],
+   "answer": "10190",
+   "answer_text": "Exercise extreme caution"
+  },
+  {
+   "name": "sgE-7355143-1-103",
+   "page": "1",
+   "qid": "103",
+   "type": "radio",
+   "question": "A blind person legally has the right-of-way when crossing the street when:",
+   "images": [],
+   "options": [
+    {
+     "value": "10211",
+     "text": "Wearing light-colored clothing",
+     "images": []
+    },
+    {
+     "value": "10212",
+     "text": "Led by a guide dog, or using a white or metallic cane",
+     "images": []
+    },
+    {
+     "value": "10213",
+     "text": "Helped by another person",
+     "images": []
+    },
+    {
+     "value": "10214",
+     "text": "Wearing dark-colored glasses",
+     "images": []
+    }
+   ],
+   "answer": "10212",
+   "answer_text": "Led by a guide dog, or using a white or metallic cane"
+  },
+  {
+   "name": "sgE-7355143-1-102",
+   "page": "1",
+   "qid": "102",
+   "type": "radio",
+   "question": "A bicyclist differs from a motorist in that a bicyclist isn't required to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10207",
+     "text": "Obey the same traffic laws",
+     "images": []
+    },
+    {
+     "value": "10208",
+     "text": "Signal all turns",
+     "images": []
+    },
+    {
+     "value": "10209",
+     "text": "Report accidents resulting in serious injury",
+     "images": []
+    },
+    {
+     "value": "10210",
+     "text": "Insure the bicycle",
+     "images": []
+    }
+   ],
+   "answer": "10210",
+   "answer_text": "Insure the bicycle"
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "title": "Chapter 8 - Defensive Driving",
+ "questions": [
+  {
+   "name": "sgE-7355142-1-122",
+   "page": "1",
+   "qid": "122",
+   "type": "radio",
+   "question": "Driving in a state of rage can:",
+   "images": [],
+   "options": [
+    {
+     "value": "10287",
+     "text": "Affect your ability to reason and make decisions",
+     "images": []
+    },
+    {
+     "value": "10288",
+     "text": "Increase the chance of being involved in a traffic accident",
+     "images": []
+    },
+    {
+     "value": "10289",
+     "text": "Lead to a revoked or suspended license",
+     "images": []
+    },
+    {
+     "value": "10290",
+     "text": "All of these choices",
+     "images": []
+    }
+   ],
+   "answer": "10290",
+   "answer_text": "All of these choices"
+  },
+  {
+   "name": "sgE-7355142-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "Which of the following may describe a work zone sign?",
+   "images": [],
+   "options": [
+    {
+     "value": "10271",
+     "text": "A white rectangle with black letters",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "An orange diamond with black letters",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "A green rectangle with white letters",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "A yellow circle with black letters",
+     "images": []
+    }
+   ],
+   "answer": "10272",
+   "answer_text": "An orange diamond with black letters"
+  },
+  {
+   "name": "sgE-7355142-1-120",
+   "page": "1",
+   "qid": "120",
+   "type": "radio",
+   "question": "What is true of work zones?",
+   "images": [],
+   "options": [
+    {
+     "value": "10279",
+     "text": "They are always stationary and therefore easily avoided",
+     "images": []
+    },
+    {
+     "value": "10280",
+     "text": "They are only dangerous at night",
+     "images": []
+    },
+    {
+     "value": "10281",
+     "text": "Speeding fines are tripled when workers are present",
+     "images": []
+    },
+    {
+     "value": "10282",
+     "text": "Rear-end collisions are the most common type of crash in work zones",
+     "images": []
+    }
+   ],
+   "answer": "10282",
+   "answer_text": "Rear-end collisions are the most common type of crash in work zones"
+  },
+  {
+   "name": "sgE-7355142-1-124",
+   "page": "1",
+   "qid": "124",
+   "type": "radio",
+   "question": "On long trips you can prevent drowsiness by:",
+   "images": [],
+   "options": [
+    {
+     "value": "10295",
+     "text": "Turning on your car radio",
+     "images": []
+    },
+    {
+     "value": "10296",
+     "text": "Slowing down so you can react better",
+     "images": []
+    },
+    {
+     "value": "10297",
+     "text": "Stopping at regular intervals for a rest",
+     "images": []
+    },
+    {
+     "value": "10298",
+     "text": "Moving your eyes from side to side as you drive",
+     "images": []
+    }
+   ],
+   "answer": "10297",
+   "answer_text": "Stopping at regular intervals for a rest"
+  },
+  {
+   "name": "sgE-7355142-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "Signs that warn \"lane closed ahead\" may indicate a work zone ahead. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Merge your vehicle into the correct lane when it is safe",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Drive to the end of the closed lane before attempting to merge",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Understand that this sign is merely a suggestion and continue in the lane",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Speed up to merge as quickly as possible",
+     "images": []
+    }
+   ],
+   "answer": "10275",
+   "answer_text": "Merge your vehicle into the correct lane when it is safe"
+  },
+  {
+   "name": "sgE-7355142-1-121",
+   "page": "1",
+   "qid": "121",
+   "type": "radio",
+   "question": "Which of the following is always true about road rage?",
+   "images": [],
+   "options": [
+    {
+     "value": "10283",
+     "text": "There is nothing a driver can do to prevent road rage",
+     "images": []
+    },
+    {
+     "value": "10284",
+     "text": "You must hold your position in your travel lane",
+     "images": []
+    },
+    {
+     "value": "10285",
+     "text": "Only violent people experience road rage",
+     "images": []
+    },
+    {
+     "value": "10286",
+     "text": "You should remain polite to aggressive drivers",
+     "images": []
+    }
+   ],
+   "answer": "10286",
+   "answer_text": "You should remain polite to aggressive drivers"
+  },
+  {
+   "name": "sgE-7355142-1-127",
+   "page": "1",
+   "qid": "127",
+   "type": "radio",
+   "question": "One of the rules of defensive driving is:",
+   "images": [],
+   "options": [
+    {
+     "value": "10307",
+     "text": "Look straight ahead as you drive",
+     "images": []
+    },
+    {
+     "value": "10308",
+     "text": "Stay alert and keep your eyes moving",
+     "images": []
+    },
+    {
+     "value": "10309",
+     "text": "Expect that other drivers will make up for your errors",
+     "images": []
+    },
+    {
+     "value": "10310",
+     "text": "Be confident that you can avoid danger at the last minute",
+     "images": []
+    }
+   ],
+   "answer": "10308",
+   "answer_text": "Stay alert and keep your eyes moving"
+  },
+  {
+   "name": "sgE-7355142-1-129",
+   "page": "1",
+   "qid": "129",
+   "type": "radio",
+   "question": "Minimum speed signs are designed to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10315",
+     "text": "Keep traffic flowing smoothly",
+     "images": []
+    },
+    {
+     "value": "10316",
+     "text": "Show current local road conditions",
+     "images": []
+    },
+    {
+     "value": "10317",
+     "text": "Test future traffic signal needs",
+     "images": []
+    },
+    {
+     "value": "10318",
+     "text": "Assure pedestrian safety",
+     "images": []
+    }
+   ],
+   "answer": "10315",
+   "answer_text": "Keep traffic flowing smoothly"
+  },
+  {
+   "name": "sgE-7355142-1-126",
+   "page": "1",
+   "qid": "126",
+   "type": "radio",
+   "question": "A safe speed to drive your car:",
+   "images": [],
+   "options": [
+    {
+     "value": "10303",
+     "text": "Is the posted speed limit",
+     "images": []
+    },
+    {
+     "value": "10304",
+     "text": "Is less than the posted speed limit",
+     "images": []
+    },
+    {
+     "value": "10305",
+     "text": "Depends on the weather and road conditions",
+     "images": []
+    },
+    {
+     "value": "10306",
+     "text": "Depends on the mechanical skill of the driver",
+     "images": []
+    }
+   ],
+   "answer": "10305",
+   "answer_text": "Depends on the weather and road conditions"
+  },
+  {
+   "name": "sgE-7355142-1-128",
+   "page": "1",
+   "qid": "128",
+   "type": "radio",
+   "question": "On a New York State highway where there is no posted speed limit, the fastest you may legally drive is:",
+   "images": [],
+   "options": [
+    {
+     "value": "10311",
+     "text": "50 mph",
+     "images": []
+    },
+    {
+     "value": "10312",
+     "text": "55 mph",
+     "images": []
+    },
+    {
+     "value": "10313",
+     "text": "60 mph",
+     "images": []
+    },
+    {
+     "value": "10314",
+     "text": "65 mph",
+     "images": []
+    }
+   ],
+   "answer": "10312",
+   "answer_text": "55 mph"
+  },
+  {
+   "name": "sgE-7355142-1-123",
+   "page": "1",
+   "qid": "123",
+   "type": "radio",
+   "question": "Aggressive driving can become road rage. What should you do when confronted by an aggressive driver?",
+   "images": [],
+   "options": [
+    {
+     "value": "10291",
+     "text": "Speed up to pass the driver as quickly as possible",
+     "images": []
+    },
+    {
+     "value": "10292",
+     "text": "Be prepared to yield the right of way",
+     "images": []
+    },
+    {
+     "value": "10293",
+     "text": "Drink alcohol to calm yourself down",
+     "images": []
+    },
+    {
+     "value": "10294",
+     "text": "Make eye contact with the driver",
+     "images": []
+    }
+   ],
+   "answer": "10292",
+   "answer_text": "Be prepared to yield the right of way"
+  },
+  {
+   "name": "sgE-7355142-1-125",
+   "page": "1",
+   "qid": "125",
+   "type": "radio",
+   "question": "Seat belts can be most effective as injury preventive devices when they are worn by:",
+   "images": [],
+   "options": [
+    {
+     "value": "10299",
+     "text": "The person driving the car",
+     "images": []
+    },
+    {
+     "value": "10300",
+     "text": "Passengers when they are on a long drive",
+     "images": []
+    },
+    {
+     "value": "10301",
+     "text": "All occupants of a car being driven on an expressway",
+     "images": []
+    },
+    {
+     "value": "10302",
+     "text": "Passengers and the driver whenever they are in the car",
+     "images": []
+    }
+   ],
+   "answer": "10302",
+   "answer_text": "Passengers and the driver whenever they are in the car"
+  }
+ ]
+}

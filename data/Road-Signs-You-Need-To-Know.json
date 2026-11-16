@@ -1,0 +1,549 @@
+{
+ "title": "Road Signs You Need To Know",
+ "questions": [
+  {
+   "name": "sgE-7355141-1-110",
+   "page": "1",
+   "qid": "110",
+   "type": "radio",
+   "question": "This (no left turn) sign means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/noleftturn.png"
+   ],
+   "options": [
+    {
+     "value": "10239",
+     "text": "All traffic turn left",
+     "images": []
+    },
+    {
+     "value": "10240",
+     "text": "No left turn",
+     "images": []
+    },
+    {
+     "value": "10241",
+     "text": "No U-turn",
+     "images": []
+    },
+    {
+     "value": "10242",
+     "text": "Truck route to the left",
+     "images": []
+    }
+   ],
+   "answer": "10240",
+   "answer_text": "No left turn"
+  },
+  {
+   "name": "sgE-7355141-1-118",
+   "page": "1",
+   "qid": "118",
+   "type": "radio",
+   "question": "This sign (school crossing) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/schoolcrossing.png"
+   ],
+   "options": [
+    {
+     "value": "10271",
+     "text": "Pedestrians only",
+     "images": []
+    },
+    {
+     "value": "10272",
+     "text": "Intersection ahead",
+     "images": []
+    },
+    {
+     "value": "10273",
+     "text": "Hiking trails ahead",
+     "images": []
+    },
+    {
+     "value": "10274",
+     "text": "School crossing ahead",
+     "images": []
+    }
+   ],
+   "answer": "10274",
+   "answer_text": "School crossing ahead"
+  },
+  {
+   "name": "sgE-7355141-1-115",
+   "page": "1",
+   "qid": "115",
+   "type": "radio",
+   "question": "This sign (merging traffic from right) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/mergingtrafficfromright.png"
+   ],
+   "options": [
+    {
+     "value": "10259",
+     "text": "One-way traffic",
+     "images": []
+    },
+    {
+     "value": "10260",
+     "text": "Intersection ahead",
+     "images": []
+    },
+    {
+     "value": "10261",
+     "text": "Merging traffic from the right",
+     "images": []
+    },
+    {
+     "value": "10262",
+     "text": "Highway curves ahead",
+     "images": []
+    }
+   ],
+   "answer": "10261",
+   "answer_text": "Merging traffic from the right"
+  },
+  {
+   "name": "sgE-7355141-1-104",
+   "page": "1",
+   "qid": "104",
+   "type": "radio",
+   "question": "This sign (hill ahead) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/hillahead.png"
+   ],
+   "options": [
+    {
+     "value": "10215",
+     "text": "Trucks under 18,000 lbs. allowed",
+     "images": []
+    },
+    {
+     "value": "10216",
+     "text": "Hill ahead",
+     "images": []
+    },
+    {
+     "value": "10217",
+     "text": "Truck stop ahead",
+     "images": []
+    },
+    {
+     "value": "10218",
+     "text": "No trucks allowed",
+     "images": []
+    }
+   ],
+   "answer": "10216",
+   "answer_text": "Hill ahead"
+  },
+  {
+   "name": "sgE-7355141-1-113",
+   "page": "1",
+   "qid": "113",
+   "type": "radio",
+   "question": "This sign (traffic light ahead) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/trafficlightahead.png"
+   ],
+   "options": [
+    {
+     "value": "10251",
+     "text": "Continue at your current speed",
+     "images": []
+    },
+    {
+     "value": "10252",
+     "text": "You must stop ahead",
+     "images": []
+    },
+    {
+     "value": "10253",
+     "text": "Speeding is not allowed",
+     "images": []
+    },
+    {
+     "value": "10254",
+     "text": "There is a traffic signal ahead",
+     "images": []
+    }
+   ],
+   "answer": "10254",
+   "answer_text": "There is a traffic signal ahead"
+  },
+  {
+   "name": "sgE-7355141-1-112",
+   "page": "1",
+   "qid": "112",
+   "type": "radio",
+   "question": "This sign (slippery when wet) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/slipperywhenwet.png"
+   ],
+   "options": [
+    {
+     "value": "10247",
+     "text": "Don't drink if you are going to drive",
+     "images": []
+    },
+    {
+     "value": "10248",
+     "text": "Slippery when wet",
+     "images": []
+    },
+    {
+     "value": "10249",
+     "text": "Road curves ahead",
+     "images": []
+    },
+    {
+     "value": "10250",
+     "text": "You are approaching a hill",
+     "images": []
+    }
+   ],
+   "answer": "10248",
+   "answer_text": "Slippery when wet"
+  },
+  {
+   "name": "sgE-7355141-1-111",
+   "page": "1",
+   "qid": "111",
+   "type": "radio",
+   "question": "This sign (do not enter) is used to prevent:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/donotenter.png"
+   ],
+   "options": [
+    {
+     "value": "10243",
+     "text": "Entrance to full parking lots",
+     "images": []
+    },
+    {
+     "value": "10244",
+     "text": "Entrance to road construction areas",
+     "images": []
+    },
+    {
+     "value": "10245",
+     "text": "Entrance to dead-end streets",
+     "images": []
+    },
+    {
+     "value": "10246",
+     "text": "Wrong-way entrance on one-way streets and expressway ramps",
+     "images": []
+    }
+   ],
+   "answer": "10246",
+   "answer_text": "Wrong-way entrance on one-way streets and expressway ramps"
+  },
+  {
+   "name": "sgE-7355141-1-119",
+   "page": "1",
+   "qid": "119",
+   "type": "radio",
+   "question": "This sign (stop sign) means:",
+   "images": [
+    "//surveygizmolibrary.s3.amazonaws.com/library/4429/stopsign.png"
+   ],
+   "options": [
+    {
+     "value": "10275",
+     "text": "Slow down and prepare to stop only if cars are approaching you",
+     "images": []
+    },
+    {
+     "value": "10276",
+     "text": "Come to a full stop, then go when it is safe to do so",
+     "images": []
+    },
+    {
+     "value": "10277",
+     "text": "Proceed carefully through the intersection, not always stopping",
+     "images": []
+    },
+    {
+     "value": "10278",
+     "text": "Stop only for traffic on an intersecting road",
+     "images": []
+    }
+   ],
+   "answer": "10276",
+   "answer_text": "Come to a full stop, then go when it is safe to do so"
+  },
+  {
+   "name": "sgE-7355141-1-107",
+   "page": "1",
+   "qid": "107",
+   "type": "radio",
+   "question": "This sign (yield sign) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/yieldsign.png"
+   ],
+   "options": [
+    {
+     "value": "10227",
+     "text": "Slow down if an emergency vehicle is approaching",
+     "images": []
+    },
+    {
+     "value": "10228",
+     "text": "Look both ways as you cross the intersection",
+     "images": []
+    },
+    {
+     "value": "10229",
+     "text": "Always come to a full stop at the intersection",
+     "images": []
+    },
+    {
+     "value": "10230",
+     "text": "Slow down and be prepared to stop if necessary",
+     "images": []
+    }
+   ],
+   "answer": "10230",
+   "answer_text": "Slow down and be prepared to stop if necessary"
+  },
+  {
+   "name": "sgE-7355141-1-108",
+   "page": "1",
+   "qid": "108",
+   "type": "radio",
+   "question": "This sign (two way traffic) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/twowaytraffic.png"
+   ],
+   "options": [
+    {
+     "value": "10231",
+     "text": "Four-lane traffic ahead",
+     "images": []
+    },
+    {
+     "value": "10232",
+     "text": "Divided highway ahead",
+     "images": []
+    },
+    {
+     "value": "10233",
+     "text": "Two-way traffic ahead",
+     "images": []
+    },
+    {
+     "value": "10234",
+     "text": "Intersection ahead",
+     "images": []
+    }
+   ],
+   "answer": "10233",
+   "answer_text": "Two-way traffic ahead"
+  },
+  {
+   "name": "sgE-7355141-1-109",
+   "page": "1",
+   "qid": "109",
+   "type": "radio",
+   "question": "This sign (hospital to right) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/hospitaltoright.png"
+   ],
+   "options": [
+    {
+     "value": "10235",
+     "text": "Highway changes ahead to the right",
+     "images": []
+    },
+    {
+     "value": "10236",
+     "text": "Hiking trails ahead to the right",
+     "images": []
+    },
+    {
+     "value": "10237",
+     "text": "Hotel ahead to the right",
+     "images": []
+    },
+    {
+     "value": "10238",
+     "text": "Hospital ahead to the right",
+     "images": []
+    }
+   ],
+   "answer": "10238",
+   "answer_text": "Hospital ahead to the right"
+  },
+  {
+   "name": "sgE-7355141-1-116",
+   "page": "1",
+   "qid": "116",
+   "type": "radio",
+   "question": "This sign (right lane ends keep left) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/rightlaneendskeepleft.png"
+   ],
+   "options": [
+    {
+     "value": "10263",
+     "text": "Merging traffic is approaching from the right",
+     "images": []
+    },
+    {
+     "value": "10264",
+     "text": "Winding road ahead",
+     "images": []
+    },
+    {
+     "value": "10265",
+     "text": "Right lane ends, stay to the left",
+     "images": []
+    },
+    {
+     "value": "10266",
+     "text": "Divided highway ahead",
+     "images": []
+    }
+   ],
+   "answer": "10265",
+   "answer_text": "Right lane ends, stay to the left"
+  },
+  {
+   "name": "sgE-7355141-1-114",
+   "page": "1",
+   "qid": "114",
+   "type": "radio",
+   "question": "This sign (keep right) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/keepright.png"
+   ],
+   "options": [
+    {
+     "value": "10255",
+     "text": "Divided highway ends",
+     "images": []
+    },
+    {
+     "value": "10256",
+     "text": "One-way traffic ahead",
+     "images": []
+    },
+    {
+     "value": "10257",
+     "text": "Two-way traffic ahead",
+     "images": []
+    },
+    {
+     "value": "10258",
+     "text": "Keep to the right",
+     "images": []
+    }
+   ],
+   "answer": "10258",
+   "answer_text": "Keep to the right"
+  },
+  {
+   "name": "sgE-7355141-1-117",
+   "page": "1",
+   "qid": "117",
+   "type": "radio",
+   "question": "This sign (railroad crossing) is a warning that you are approaching:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/railroadcrossing.png"
+   ],
+   "options": [
+    {
+     "value": "10267",
+     "text": "An intersection",
+     "images": []
+    },
+    {
+     "value": "10268",
+     "text": "A crosswalk",
+     "images": []
+    },
+    {
+     "value": "10269",
+     "text": "A railroad crossing",
+     "images": []
+    },
+    {
+     "value": "10270",
+     "text": "A blasting zone",
+     "images": []
+    }
+   ],
+   "answer": "10269",
+   "answer_text": "A railroad crossing"
+  },
+  {
+   "name": "sgE-7355141-1-106",
+   "page": "1",
+   "qid": "106",
+   "type": "radio",
+   "question": "This sign (no u turn) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/nouturn.png"
+   ],
+   "options": [
+    {
+     "value": "10223",
+     "text": "No left turn",
+     "images": []
+    },
+    {
+     "value": "10224",
+     "text": "No stopping",
+     "images": []
+    },
+    {
+     "value": "10225",
+     "text": "No U-turn",
+     "images": []
+    },
+    {
+     "value": "10226",
+     "text": "Detour ahead",
+     "images": []
+    }
+   ],
+   "answer": "10225",
+   "answer_text": "No U-turn"
+  },
+  {
+   "name": "sgE-7355141-1-105",
+   "page": "1",
+   "qid": "105",
+   "type": "radio",
+   "question": "This sign (divided highway ends) means:",
+   "images": [
+    "https://surveygizmolibrary.s3.amazonaws.com/library/4429/dividedhighwayends.png"
+   ],
+   "options": [
+    {
+     "value": "10219",
+     "text": "Divided highway ahead",
+     "images": []
+    },
+    {
+     "value": "10220",
+     "text": "One-way taffic ahead",
+     "images": []
+    },
+    {
+     "value": "10221",
+     "text": "Four-lane highway ahead",
+     "images": []
+    },
+    {
+     "value": "10222",
+     "text": "Divided highway ends",
+     "images": []
+    }
+   ],
+   "answer": "10222",
+   "answer_text": "Divided highway ends"
+  }
+ ]
+}

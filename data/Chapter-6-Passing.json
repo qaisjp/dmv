@@ -1,0 +1,261 @@
+{
+ "title": "Chapter 6 - Passing",
+ "questions": [
+  {
+   "name": "sgE-7355140-1-101",
+   "page": "1",
+   "qid": "101",
+   "type": "radio",
+   "question": "The car behind you begins to pass you. You should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10203",
+     "text": "Maintain your speed so traffic will flow smoothly",
+     "images": []
+    },
+    {
+     "value": "10204",
+     "text": "Pull to the right and stop so he can pass",
+     "images": []
+    },
+    {
+     "value": "10205",
+     "text": "Slow down slightly and stay in your lane",
+     "images": []
+    },
+    {
+     "value": "10206",
+     "text": "Blow your horn to allow him to pass",
+     "images": []
+    }
+   ],
+   "answer": "10205",
+   "answer_text": "Slow down slightly and stay in your lane"
+  },
+  {
+   "name": "sgE-7355140-1-97",
+   "page": "1",
+   "qid": "97",
+   "type": "radio",
+   "question": "After you have passed a car you should return to the right lane when you:",
+   "images": [],
+   "options": [
+    {
+     "value": "10187",
+     "text": "See the front bumper of the other car in your mirror",
+     "images": []
+    },
+    {
+     "value": "10188",
+     "text": "Have put your turn signal on",
+     "images": []
+    },
+    {
+     "value": "10189",
+     "text": "Have turned your headlights on",
+     "images": []
+    },
+    {
+     "value": "10190",
+     "text": "See the other car's headlights come on",
+     "images": []
+    }
+   ],
+   "answer": "10187",
+   "answer_text": "See the front bumper of the other car in your mirror"
+  },
+  {
+   "name": "sgE-7355140-1-100",
+   "page": "1",
+   "qid": "100",
+   "type": "radio",
+   "question": "When you want to overtake and pass another vehicle you should:",
+   "images": [],
+   "options": [
+    {
+     "value": "10199",
+     "text": "Wait for a signal from the other driver",
+     "images": []
+    },
+    {
+     "value": "10200",
+     "text": "Change lanes quickly so the other driver will see you",
+     "images": []
+    },
+    {
+     "value": "10201",
+     "text": "Signal and pass when safe to do so",
+     "images": []
+    },
+    {
+     "value": "10202",
+     "text": "Stay close behind so you need less time to pass",
+     "images": []
+    }
+   ],
+   "answer": "10201",
+   "answer_text": "Signal and pass when safe to do so"
+  },
+  {
+   "name": "sgE-7355140-1-96",
+   "page": "1",
+   "qid": "96",
+   "type": "radio",
+   "question": "You are driving in the middle lane on a three lane expressway. A car begins to pass you on the right. The actions of that driver are:",
+   "images": [],
+   "options": [
+    {
+     "value": "10183",
+     "text": "Wrong because \"pass on the left\" is a firm rule",
+     "images": []
+    },
+    {
+     "value": "10184",
+     "text": "Wrong because he's passing you in your \"blind spot\"",
+     "images": []
+    },
+    {
+     "value": "10185",
+     "text": "OK as long as he does it on a limited access highway",
+     "images": []
+    },
+    {
+     "value": "10186",
+     "text": "OK if no signs forbid passing on the right",
+     "images": []
+    }
+   ],
+   "answer": "10186",
+   "answer_text": "OK if no signs forbid passing on the right"
+  },
+  {
+   "name": "sgE-7355140-1-103",
+   "page": "1",
+   "qid": "103",
+   "type": "radio",
+   "question": "What does it mean when a school bus is stopped and its red lights are flashing?",
+   "images": [],
+   "options": [
+    {
+     "value": "10211",
+     "text": "You may pass if no children are on the road",
+     "images": []
+    },
+    {
+     "value": "10212",
+     "text": "You may not pass while the red lights are flashing",
+     "images": []
+    },
+    {
+     "value": "10213",
+     "text": "You may pass if you are facing the front of the bus",
+     "images": []
+    },
+    {
+     "value": "10214",
+     "text": "You may pass if it is on the other side of a divided highway",
+     "images": []
+    }
+   ],
+   "answer": "10212",
+   "answer_text": "You may not pass while the red lights are flashing"
+  },
+  {
+   "name": "sgE-7355140-1-102",
+   "page": "1",
+   "qid": "102",
+   "type": "radio",
+   "question": "You may pass another vehicle on the right if it is waiting to:",
+   "images": [],
+   "options": [
+    {
+     "value": "10207",
+     "text": "Turn right",
+     "images": []
+    },
+    {
+     "value": "10208",
+     "text": "Turn left",
+     "images": []
+    },
+    {
+     "value": "10209",
+     "text": "Park at the curb",
+     "images": []
+    },
+    {
+     "value": "10210",
+     "text": "Turn into a driveway on the right",
+     "images": []
+    }
+   ],
+   "answer": "10208",
+   "answer_text": "Turn left"
+  },
+  {
+   "name": "sgE-7355140-1-99",
+   "page": "1",
+   "qid": "99",
+   "type": "radio",
+   "question": "In general, you should pass vehicles going in the same direction you are going:",
+   "images": [],
+   "options": [
+    {
+     "value": "10195",
+     "text": "On the right",
+     "images": []
+    },
+    {
+     "value": "10196",
+     "text": "On the left",
+     "images": []
+    },
+    {
+     "value": "10197",
+     "text": "Only if the other driver signals it is safe",
+     "images": []
+    },
+    {
+     "value": "10198",
+     "text": "Whenever you have the opportunity to do so",
+     "images": []
+    }
+   ],
+   "answer": "10196",
+   "answer_text": "On the left"
+  },
+  {
+   "name": "sgE-7355140-1-98",
+   "page": "1",
+   "qid": "98",
+   "type": "radio",
+   "question": "In which of the following situations is passing always forbidden?",
+   "images": [],
+   "options": [
+    {
+     "value": "10191",
+     "text": "The vehicle ahead is making a left turn",
+     "images": []
+    },
+    {
+     "value": "10192",
+     "text": "You are on a one-way street which has two lanes",
+     "images": []
+    },
+    {
+     "value": "10193",
+     "text": "The vehicle ahead is stopped for a pedestrian in a crosswalk",
+     "images": []
+    },
+    {
+     "value": "10194",
+     "text": "The vehicle ahead is going to park parallel to the curb",
+     "images": []
+    }
+   ],
+   "answer": "10193",
+   "answer_text": "The vehicle ahead is stopped for a pedestrian in a crosswalk"
+  }
+ ]
+}
