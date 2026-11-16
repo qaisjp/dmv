@@ -5,12 +5,12 @@
   const headerInfo = document.getElementById('header-info');
   const exitBtn = document.getElementById('exit-btn');
 
-  const allQuestions = DECKS.flatMap((d) => d.questions.map((q) => ({ ...q, deck: d.title })));
+  const allQuestions = DECKS.flatMap((d) => d.questions.map((q) => ({ ...q, deck: d.title, deckId: d.id })));
   const byDeck = Object.fromEntries(DECKS.map((d) => [d.id, d]));
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-  const shortTitle = (t) => t.replace(/^Chapter (\d+) - /, 'Ch $1 · ');
+  const shortTitle = (t) => t.replace(/^Chapter (\d+) - /, 'Ch $1 · ').replace('Road Signs You Need To Know', 'Road Signs');
 
   // "Hard" tag toggle, usable anywhere a question is shown. Clicks are delegated so every
   // copy of a question's button stays in sync.
@@ -49,8 +49,12 @@
   }
   function selectedQuestions() {
     const ids = new Set(selectedDeckIds());
-    return allQuestions.filter((q) => ids.has(DECKS.find((d) => d.title === q.deck).id));
+    return allQuestions.filter((q) => ids.has(q.deckId));
   }
+  // Answer history feeds the pass estimate. Only record genuine attempts, not re-asks
+  // straight after being shown the answer.
+  const record = (q, ok) => Store.record(q.id, ok, Exam.RECENT);
+  const pct = (x) => `${Math.round(100 * x)}%`;
   function counts(qs) {
     let m = 0, f = 0;
     for (const q of qs) { const l = Store.level(q.id); if (l >= 2) m++; else if (l === 1) f++; }
@@ -82,21 +86,25 @@
           <button class="link" id="sel-all">Select all</button>
           <button class="link" id="sel-none">Select none</button>
         </div>
+        <div class="decks">
         ${DECKS.map((d) => `
           <div class="deck">
-            <label><input type="checkbox" value="${d.id}" ${sel.has(d.id) ? 'checked' : ''}> ${esc(d.title)}
-              <span class="muted">(${d.questions.length})</span></label>
+            <label><input type="checkbox" value="${d.id}" ${sel.has(d.id) ? 'checked' : ''}>
+              <span><span class="t-full">${esc(d.title)}</span><span class="t-short">${esc(shortTitle(d.title))}</span>
+              <span class="muted">(${d.questions.length})</span></span></label>
             ${meter(d.questions)}
           </div>`).join('')}
+        </div>
       </div>
       <div class="modes">
         <button class="card mode" id="go-learn"><b>🧠 Learn</b><span class="muted">Adaptive rounds — answer each question correctly twice to master it.</span></button>
         <button class="card mode" id="go-cards"><b>🗂️ Flashcards</b><span class="muted">Flip through questions and answers.</span></button>
-        <button class="card mode" id="go-test"><b>📝 Test</b><span class="muted">A scored practice exam. 70% passes.</span></button>
+        <button class="card mode" id="go-test"><b>📝 Test</b><span class="muted">Simulate the real 20-question exam, or a custom test from your selected chapters.</span></button>
         <button class="card mode" id="go-intensive" ${hardCount ? '' : 'disabled'}><b>🔥 Intensive</b><span class="muted">${hardCount
           ? `Drill your ${hardCount} Hard-tagged question${hardCount === 1 ? '' : 's'} until each is right 3 times in a row.`
           : 'Tag questions as ⚑ Hard during any mode to drill them here.'}</span></button>
       </div>
+      ${readinessCard()}
       <p class="muted" style="text-align:center;margin-top:24px">
         Selected: ${c.total} questions · ${c.m} mastered · ${c.f} familiar
         · <button class="link" id="reset">Reset progress for selection</button>
@@ -109,11 +117,33 @@
     const need = (fn) => () => (selectedQuestions().length ? fn() : alert('Select at least one chapter first.'));
     view.querySelector('#go-learn').onclick = need(learn);
     view.querySelector('#go-cards').onclick = need(flashcards);
-    view.querySelector('#go-test').onclick = need(testSetup);
+    view.querySelector('#go-test').onclick = testSetup;
     view.querySelector('#go-intensive').onclick = intensive;
     view.querySelector('#reset').onclick = () => {
       if (confirm('Reset mastery for the selected chapters?')) { Store.reset(qs.map((q) => q.id)); home(); }
     };
+  }
+
+  function readinessCard() {
+    const est = Exam.estimate(allQuestions, Store.history);
+    const R = Exam.RULES;
+    if (!est.answered) {
+      return `<div class="card readiness"><div class="detail"><b>Exam readiness</b><br>
+        <span class="muted">Answer some questions in any mode and this will estimate your chance of passing the real test.</span></div></div>`;
+    }
+    const color = est.pass >= 0.9 ? 'good' : est.pass >= 0.6 ? 'ink' : 'bad';
+    const weak = est.chapters.slice(0, 3);
+    return `
+      <div class="card readiness">
+        <div><div class="big" style="color:var(--${color})">${pct(est.pass)}</div><div class="muted" style="font-size:13px">chance to pass</div></div>
+        <div class="detail">
+          <b>Exam readiness</b> <span class="muted">— from ${est.answered} of ${est.total} questions answered, over thousands of simulated ${R.total}-question exams.</span>
+          ${est.signFail >= 0.01 ? `<br>${pct(est.signFail)} of simulated exams fail the road-sign rule (need ${R.passSigns} of ${R.signs}).` : ''}
+          <br>Weakest chapters (estimated accuracy):
+          <ul>${weak.map((c) => `<li>${esc(shortTitle(c.title))}: ${pct(c.accuracy)}${c.seen < c.count ? ` <span class="muted">(${c.count - c.seen} not yet seen)</span>` : ''}</li>`).join('')}</ul>
+          ${est.answered < 40 ? '<span class="muted">Early estimate — it firms up as you answer more.</span>' : ''}
+        </div>
+      </div>`;
   }
 
   // After a correct answer: move on shortly, or straight away on Space/Enter. Skips if the
@@ -200,7 +230,7 @@
           <div class="progress"><span>${doneCount} / ${total}</span><span class="bar"><i style="width:${(100 * doneCount) / total}%"></i></span></div>
           <div class="card" id="qcard"></div>`;
         const mc = renderMC(view.querySelector('#qcard'), q, (ok, chosen) => {
-          if (!results.has(q.id)) results.set(q.id, ok);
+          if (!results.has(q.id)) { results.set(q.id, ok); record(q, ok); }
           const fb = mc.feedback;
           if (ok) {
             Store.setLevel(q.id, lvl + 1);
@@ -279,6 +309,7 @@
     if (!active.length) return done();
     const queue = active;
     const misses = new Map();
+    const recorded = new Set();
     ask();
 
     function ask() {
@@ -293,6 +324,7 @@
         <div class="card" id="qcard"></div>`;
       const container = view.querySelector('#qcard');
       const mc = renderMC(container, q, (ok) => {
+        if (!recorded.has(q.id)) { recorded.add(q.id); record(q, ok); }
         const fb = mc.feedback;
         if (ok) {
           const n = streak + 1;
@@ -407,21 +439,36 @@
     chrome(true, '');
     onKey = null;
     currentQ = null;
+    const R = Exam.RULES;
     const sizes = [10, 20, 30].filter((n) => n < qs.length);
     view.innerHTML = `
       <div class="card">
-        <h2>Practice test</h2>
-        <p class="muted">Questions are drawn randomly from your selected chapters. The real NY written test needs 70% to pass (and 2 of 4 road-sign questions).</p>
-        <div class="row">
-          ${sizes.map((n) => `<button data-n="${n}">${n} questions</button>`).join('')}
-          <button class="primary" data-n="${qs.length}">All ${qs.length}</button>
-        </div>
+        <h2>🎓 Real exam</h2>
+        <p class="muted">Same format as the NY written test: ${R.total} questions from all chapters, ${R.signs} of them road signs.
+          You need ${R.passTotal} correct <b>and</b> at least ${R.passSigns} of the ${R.signs} road signs.</p>
+        <button class="primary" id="go-exam">Start exam</button>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <h2>Custom test</h2>
+        ${qs.length ? `
+          <p class="muted">Random questions from your ${selectedDeckIds().length} selected chapter(s). 70% passes.</p>
+          <div class="row">
+            ${sizes.map((n) => `<button data-n="${n}">${n} questions</button>`).join('')}
+            <button data-n="${qs.length}">All ${qs.length}</button>
+          </div>` : '<p class="muted">Select chapters on the home page to build a custom test.</p>'}
       </div>`;
+    view.querySelector('#go-exam').onclick = exam;
     view.querySelectorAll('[data-n]').forEach((b) => (b.onclick = () => runTest(shuffle(qs).slice(0, +b.dataset.n))));
   }
 
-  function runTest(qs) {
-    chrome(true, `Test · ${qs.length} questions`);
+  function exam() {
+    currentQ = null;
+    onKey = null;
+    runTest(Exam.draw(allQuestions), { exam: true });
+  }
+
+  function runTest(qs, opts = {}) {
+    chrome(true, opts.exam ? `🎓 Exam simulator · ${qs.length} questions` : `Test · ${qs.length} questions`);
     const orders = qs.map((q) => shuffle(q.options.map((_, i) => i)));
     view.innerHTML = `
       <div class="card">
@@ -452,24 +499,33 @@
     view.querySelector('#submit').onclick = () => {
       const r = picks.filter((p) => p === null).length;
       if (r && !confirm(`${r} question(s) unanswered. Submit anyway?`)) return;
-      testResults(qs, picks);
+      testResults(qs, picks, opts);
     };
   }
 
-  function testResults(qs, picks) {
+  function testResults(qs, picks, opts = {}) {
     const right = qs.filter((q, n) => picks[n] === q.answer).length;
-    qs.forEach((q, n) => { if (picks[n] !== q.answer) Store.setLevel(q.id, 0); });
-    const pct = Math.round((100 * right) / qs.length);
-    const pass = pct >= 70;
-    chrome(true, 'Test results');
+    qs.forEach((q, n) => {
+      if (picks[n] !== null) record(q, picks[n] === q.answer);
+      if (picks[n] !== q.answer) Store.setLevel(q.id, 0);
+    });
+    const R = Exam.RULES;
+    const g = Exam.grade(qs, qs.map((q, n) => picks[n] === q.answer));
+    const pass = opts.exam ? g.pass : right / qs.length >= 0.7;
+    const verdict = !opts.exam
+      ? (pass ? 'you would pass! 🎉' : 'keep studying, 70% is needed to pass.')
+      : pass ? 'PASS 🎉'
+      : g.total >= R.passTotal ? `FAIL — enough overall, but only ${g.signs} of ${R.signs} road signs (need ${R.passSigns}).`
+      : `FAIL — need ${R.passTotal} of ${R.total}.`;
+    chrome(true, opts.exam ? 'Exam results' : 'Test results');
     window.scrollTo(0, 0);
     const missed = qs.map((q, n) => [q, picks[n]]).filter(([q, p]) => p !== q.answer);
     view.innerHTML = `
       <div class="card" style="text-align:center">
-        <div class="score" style="color:var(--${pass ? 'good' : 'bad'})">${pct}%</div>
-        <p>${right} of ${qs.length} correct — ${pass ? 'you would pass! 🎉' : 'keep studying, 70% is needed to pass.'}</p>
+        <div class="score" style="color:var(--${pass ? 'good' : 'bad'})">${opts.exam ? `${right} / ${qs.length}` : pct(right / qs.length)}</div>
+        <p>${opts.exam ? `Road signs: ${g.signs} / ${R.signs} · ` : `${right} of ${qs.length} correct — `}${verdict}</p>
         <div class="row" style="justify-content:center">
-          <button class="primary" id="again">New test</button>
+          <button class="primary" id="again">${opts.exam ? 'New exam' : 'New test'}</button>
           ${missed.length ? '<button id="learn">Learn missed questions</button>' : ''}
         </div>
       </div>
@@ -480,7 +536,7 @@
             ${p !== null ? `<div class="y">${esc(q.options[p])}</div>` : '<div class="muted">(no answer)</div>'}
             <div class="a">${esc(q.options[q.answer])}</div>
           </div>`).join('')}</div>` : ''}`;
-    view.querySelector('#again').onclick = testSetup;
+    view.querySelector('#again').onclick = opts.exam ? exam : testSetup;
     const lb = view.querySelector('#learn');
     if (lb) lb.onclick = learn; // missed questions were reset to level 0, so Learn picks them up
   }

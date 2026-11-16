@@ -8,6 +8,7 @@ window.Store = (() => {
   state.selected ||= null;
   state.hard ||= {};   // id -> true for questions the user tagged as Hard
   state.streak ||= {}; // id -> consecutive correct answers in Intensive mode
+  state.history ||= {}; // id -> recent answers, oldest first, as '1' (right) / '0' (wrong)
 
   // Storage can be unavailable (private browsing, some file:// setups); progress then lasts the session.
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
@@ -28,5 +29,7 @@ window.Store = (() => {
     },
     streak: (id) => state.streak[id] || 0,
     setStreak(id, n) { state.streak[id] = n; save(); },
+    history: (id) => state.history[id] || '',
+    record(id, ok, keep) { state.history[id] = ((state.history[id] || '') + (ok ? '1' : '0')).slice(-keep); save(); },
   };
 })();

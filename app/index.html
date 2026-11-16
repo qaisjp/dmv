@@ -38,6 +38,20 @@
   .meter { width: 140px; height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; display: flex; }
   .meter i { display: block; height: 100%; }
   .meter .m { background: var(--good); } .meter .f { background: #ffcd1f; }
+  .deck .t-short { display: none; }
+  /* Small screens: chapters become compact two-column tiles; tap anywhere to toggle. */
+  @media (max-width: 720px) {
+    .card { padding: 18px; }
+    .decks { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .deck { flex-direction: column; align-items: stretch; gap: 8px; padding: 10px; border: 2px solid var(--line); border-radius: 10px; }
+    .deck:last-child { border-bottom: 2px solid var(--line); }
+    .deck:has(input:checked) { border-color: var(--brand); }
+    .deck label { gap: 8px; align-items: flex-start; font-size: 14px; line-height: 1.3; }
+    .deck input { width: 16px; height: 16px; margin: 1px 0 0; flex: none; }
+    .deck .t-full { display: none; }
+    .deck .t-short { display: inline; }
+    .deck .meter { width: 100%; height: 6px; }
+  }
   .modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 20px; }
   .mode { text-align: left; padding: 18px; border-radius: 14px; }
   .mode b { display: block; font-size: 18px; margin-bottom: 4px; }
@@ -90,6 +104,10 @@
   .face .hard-btn { position: absolute; top: 16px; right: 16px; }
   .streak { letter-spacing: 2px; }
   .mode:disabled { opacity: .5; cursor: not-allowed; }
+  .readiness { margin-top: 20px; display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+  .readiness .big { font-size: 44px; font-weight: 700; line-height: 1; }
+  .readiness .detail { flex: 1; min-width: 240px; font-size: 14px; }
+  .readiness ul { margin: 6px 0 0; padding-left: 18px; }
   .hidden { display: none !important; }
 </style>
 </head>
@@ -104,6 +122,7 @@
 
 <script src="data.js"></script>
 <script src="store.js"></script>
+<script src="exam.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
