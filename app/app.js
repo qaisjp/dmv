@@ -143,7 +143,7 @@
       <p class="q">${esc(q.q)}</p>
       ${q.img ? `<img class="q-img" src="${esc(q.img)}" alt="">` : ''}
       <div class="opts">
-        ${order.map((oi, k) => `<button class="opt" data-oi="${oi}"><span class="k" title="Press ${k + 1} or ${ALT_KEYS[k].toUpperCase()}">${k + 1}<small>${ALT_KEYS[k].toUpperCase()}</small></span><span>${esc(q.options[oi])}</span></button>`).join('')}
+        ${order.map((oi, k) => `<button class="opt" data-oi="${oi}"><span class="k">${k + 1}</span><span>${esc(q.options[oi])}</span></button>`).join('')}
       </div>
       <div class="feedback"></div>`;
     const btns = [...container.querySelectorAll('.opt')];
@@ -306,7 +306,7 @@
           queue.splice(Math.min(queue.length, 1), 0, q); // back after one other question
           const right = container.querySelector('.opt.correct');
           const num = [...container.querySelectorAll('.opt')].indexOf(right) + 1;
-          fb.innerHTML = `<span class="msg bad">✗ Streak reset. Click the correct answer (or press ${num} / ${ALT_KEYS[num - 1].toUpperCase()}) to lock it in.</span>`;
+          fb.innerHTML = `<span class="msg bad">✗ Streak reset. Click the correct answer (or press ${num}) to lock it in.</span>`;
           right.style.cursor = 'pointer';
           right.onclick = ask;
           onKey = (e) => { if (optionKey(e) === num) ask(); };
