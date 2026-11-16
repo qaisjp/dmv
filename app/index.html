@@ -87,6 +87,41 @@
   .face .q { font-size: 23px; }
   .face .ans { font-size: 26px; font-weight: 600; }
   .fc-nav { display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 18px; }
+  .fc-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-bottom: 16px; }
+  .seg { display: inline-flex; border: 2px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .seg button { border: none; border-radius: 0; padding: 6px 14px; font-size: 14px; }
+  .seg button + button { border-left: 2px solid var(--line); }
+  .seg button.on { background: var(--brand); color: var(--brand-ink); font-weight: 600; }
+  .fc-compact { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; cursor: pointer; }
+  .fc-compact input { accent-color: var(--brand); }
+  .fc-both .q-img { margin: 0 0 16px; }
+  .fc-both .ans, .fc-item .ans { font-size: 20px; font-weight: 600; color: var(--good); margin: 0; }
+  .fc-both hr { border: none; border-top: 1px solid var(--line); margin: 18px 0; }
+  .fc-list { display: flex; flex-direction: column; gap: 12px; }
+  .fc-item .q { font-size: 18px; margin-bottom: 10px; }
+  .fc-item .q-img { height: 80px; margin-bottom: 12px; }
+  /* Compact: denser cards in every flashcard view. */
+  .compact .flip-inner { min-height: 220px; }
+  .compact .face { padding: 20px; }
+  .compact .face .q { font-size: 18px; margin-bottom: 10px; }
+  .compact .face .ans { font-size: 20px; }
+  .compact .q-img { height: 64px; }
+  .compact .fc-both { padding: 18px; }
+  .compact .fc-both .q { font-size: 17px; margin-bottom: 10px; }
+  .compact .fc-both hr { margin: 10px 0; }
+  .compact .fc-both .ans { font-size: 17px; }
+  .compact .fc-list { gap: 0; background: var(--card); border-radius: 12px; box-shadow: var(--shadow); }
+  .compact .fc-item { box-shadow: none; border-radius: 0; padding: 10px 14px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: auto 1fr auto; gap: 2px 12px; align-items: start; }
+  .compact .fc-item:last-child { border-bottom: none; }
+  .compact .fc-item .qhead { display: contents; }
+  .compact .fc-item .qhead .tag { display: none; }
+  .compact .fc-item .q-img { grid-column: 1; grid-row: 1 / span 2; height: 40px; margin: 0; }
+  .compact .fc-item .q { grid-column: 2; font-size: 15px; margin: 0; }
+  .compact .fc-item .ans { grid-column: 2; font-size: 15px; }
+  .compact .fc-item .hard-btn { grid-column: 3; grid-row: 1; }
+  .compact .fc-item:not(:has(.q-img)) { grid-template-columns: 1fr auto; }
+  .compact .fc-item:not(:has(.q-img)) .q, .compact .fc-item:not(:has(.q-img)) .ans { grid-column: 1; }
+  .compact .fc-item:not(:has(.q-img)) .hard-btn { grid-column: 2; }
 
   /* test / summary */
   .tq { padding: 20px 0; border-bottom: 1px solid var(--line); }

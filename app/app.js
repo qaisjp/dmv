@@ -378,15 +378,42 @@
   }
 
   // ---------- Flashcards ----------
+  // Views: 'flip' (one card, flip to see the answer), 'both' (one card, question and answer
+  // together), 'all' (scrollable list of every card). Compact tightens any of them.
+  const FC_MODES = [['flip', 'Flip'], ['both', 'Show both'], ['all', 'Show all']];
   function flashcards() {
     let cards = selectedQuestions();
     let i = 0, flipped = false, shuffled = false;
+    let mode = Store.pref('fcMode', 'flip');
+    let compact = Store.pref('fcCompact', false);
+    const img = (q) => (q.img ? `<img class="q-img" src="${esc(q.img)}" alt="">` : '');
 
     function render() {
+      view.innerHTML = `
+        <div class="fc-bar">
+          <div class="seg">${FC_MODES.map(([m, label]) => `<button data-mode="${m}" class="${mode === m ? 'on' : ''}">${label}</button>`).join('')}</div>
+          <label class="fc-compact"><input type="checkbox" id="compact" ${compact ? 'checked' : ''}> Compact</label>
+          <button class="link" id="shuf">${shuffled ? '↺ Original order' : '🔀 Shuffle'}</button>
+        </div>
+        <div id="fc-body" class="${compact ? 'compact' : ''}"></div>`;
+      view.querySelectorAll('[data-mode]').forEach((b) => (b.onclick = () => {
+        mode = b.dataset.mode; Store.setPref('fcMode', mode); flipped = false; render();
+      }));
+      view.querySelector('#compact').onchange = (e) => { compact = e.target.checked; Store.setPref('fcCompact', compact); render(); };
+      view.querySelector('#shuf').onclick = () => {
+        shuffled = !shuffled;
+        cards = shuffled ? shuffle(cards) : selectedQuestions();
+        i = 0; flipped = false; render();
+      };
+      const body = view.querySelector('#fc-body');
+      if (mode === 'all') renderAll(body); else renderOne(body);
+    }
+
+    function renderOne(body) {
       chrome(true, `Card ${i + 1} / ${cards.length}`);
       const q = cards[i];
       currentQ = q;
-      view.innerHTML = `
+      body.innerHTML = (mode === 'flip' ? `
         <div class="flip ${flipped ? 'flipped' : ''}" id="flip">
           <div class="flip-inner">
             <div class="card face front">
@@ -403,31 +430,49 @@
               <p class="muted" style="font-size:14px">${esc(q.q)}</p>
             </div>
           </div>
-        </div>
+        </div>` : `
+        <div class="card fc-both">
+          <div class="qhead"><span class="tag">${esc(shortTitle(q.deck))}</span>${hardBtn(q.id)}</div>
+          <p class="q">${esc(q.q)}</p>
+          ${img(q)}
+          <hr>
+          <p class="ans">${esc(q.options[q.answer])}</p>
+        </div>`) + `
         <div class="fc-nav">
           <button id="prev" ${i === 0 ? 'disabled' : ''}>← Prev</button>
           <span class="muted">${i + 1} / ${cards.length}</span>
           <button id="next" ${i === cards.length - 1 ? 'disabled' : ''}>Next →</button>
-        </div>
-        <div class="fc-nav"><button class="link" id="shuf">${shuffled ? '↺ Original order' : '🔀 Shuffle'}</button></div>`;
-      const flip = view.querySelector('#flip');
-      flip.onclick = () => { flipped = !flipped; flip.classList.toggle('flipped', flipped); };
-      view.querySelector('#prev').onclick = () => go(-1);
-      view.querySelector('#next').onclick = () => go(1);
-      view.querySelector('#shuf').onclick = () => {
-        shuffled = !shuffled;
-        cards = shuffled ? shuffle(cards) : selectedQuestions();
-        i = 0; flipped = false; render();
-      };
+        </div>`;
+      const flip = body.querySelector('#flip');
+      if (flip) flip.onclick = () => { flipped = !flipped; flip.classList.toggle('flipped', flipped); };
+      body.querySelector('#prev').onclick = () => go(-1);
+      body.querySelector('#next').onclick = () => go(1);
     }
+
+    function renderAll(body) {
+      chrome(true, `${cards.length} cards`);
+      currentQ = null;
+      body.innerHTML = `<div class="fc-list">${cards.map((q) => `
+        <div class="card fc-item">
+          <div class="qhead"><span class="tag">${esc(shortTitle(q.deck))}</span>${hardBtn(q.id)}</div>
+          ${img(q)}
+          <p class="q">${esc(q.q)}</p>
+          <p class="ans">${esc(q.options[q.answer])}</p>
+        </div>`).join('')}</div>`;
+    }
+
     function go(d) {
       const n = i + d;
-      if (n < 0 || n >= cards.length) return;
+      if (mode === 'all' || n < 0 || n >= cards.length) return;
       i = n; flipped = false; render();
     }
     onKey = (e) => {
-      if (e.key === ' ' || e.key === 'ArrowUp' || e.key === 'ArrowDown') { e.preventDefault(); view.querySelector('#flip').click(); }
-      else if (e.key === 'ArrowLeft') go(-1);
+      if (mode === 'all') return;
+      if (e.key === ' ' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        const flip = view.querySelector('#flip');
+        if (flip) flip.click(); else go(1); // nothing to flip in "Show both": Space moves on
+      } else if (e.key === 'ArrowLeft') go(-1);
       else if (e.key === 'ArrowRight') go(1);
     };
     render();
